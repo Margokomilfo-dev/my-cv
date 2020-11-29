@@ -1,0 +1,130 @@
+.header
+{
+    position: relative;
+
+    display: flex;
+
+
+    height: 100%;
+    min-height: 900px;
+
+    background: url(https://i.pinimg.com/originals/02/1a/a7/021aa72493f24390fc53bb457892f9c9.jpg);
+    background-attachment: fixed !important;
+    /*background-position: center center;*/
+    background-size: cover;
+}
+
+.container
+{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 100px 0;
+
+    width: 1170px;
+    margin: 0 auto;
+}
+.myLogo {
+    color: white;
+    width: 150px;
+    height: 150px;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+.content
+{
+
+    text-align: center;
+
+    border: 1px solid gray;
+}
+
+.content > h2
+{
+    font-size: 50px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.content > h3
+{
+    font-size: 33px;
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.socialList
+{
+    margin: 2em 0;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.socialList li
+{
+    display: inline-block;
+
+    padding: 0;
+}
+
+.socialList li a
+{
+    font-size: 15px;
+    line-height: 34px;
+
+    display: block;
+
+    width: 36px;
+    height: 36px;
+    margin: 0 .1em .2em 0;
+
+    text-align: center;
+
+    opacity: .6;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+a,
+a:hover,
+a:focus
+{
+    text-decoration: none;
+
+    outline: none;
+}
+
+.avatarSection
+{
+    position: absolute;
+    bottom: -235px;
+
+    display: block;
+
+    width: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.avatar
+{
+    width: 460px;
+    height: 460px;
+    margin: 0 auto;
+
+    border: 10px solid #eff0f4;
+    border-radius: 250px;
+    background-color: #fccbd1;
+}
