@@ -21,10 +21,15 @@ export const Header: React.FC<HeaderPropsType> = (props) => {
                     </div>
                 </div>
             </div>
+            <Avatar/>
+        </div>
+    )
+}
 
-            <div className={s.avatarSection}>
-                <div className={s.avatar}>photo</div>
-            </div>
+export const Avatar: React.FC = () => {
+    return (
+        <div className={s.avatarSection}>
+            <div className={s.avatar}>photo</div>
         </div>
     )
 }
