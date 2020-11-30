@@ -1,8 +1,8 @@
-.header {
+.header
+{
     position: relative;
 
     display: flex;
-
 
     height: 100%;
     min-height: 900px;
@@ -11,36 +11,42 @@
     background-attachment: fixed !important;
     /*background-position: center center;*/
     background-size: cover;
+
+    border: 1px solid deeppink;
 }
 
-.container {
+.container
+{
     display: flex;
     align-content: center;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 100px 0;
 
     width: 1170px;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
-.myLogo {
-    color: white;
+.myLogo
+{
     width: 150px;
     height: 150px;
-    border: 1px solid grey;
     margin: 0 auto;
+
+    color: white;
+    border: 1px solid grey;
     background-color: #ffdbe1;
 }
 
-.content {
-
+.content
+{
     text-align: center;
 
     border: 1px solid gray;
 }
 
-.content > h2 {
+.content > h2
+{
     font-size: 50px;
     font-weight: 800;
 
@@ -49,7 +55,8 @@
     color: #fff;
 }
 
-.content > h3 {
+.content > h3
+{
     font-size: 33px;
     font-weight: 800;
 
@@ -58,7 +65,8 @@
     color: #fff;
 }
 
-.socialList {
+.socialList
+{
     margin: 2em 0;
     padding: 0;
 
@@ -67,13 +75,15 @@
     text-align: center;
 }
 
-.socialList li {
+.socialList li
+{
     display: inline-block;
 
     padding: 0;
 }
 
-.socialList li a {
+.socialList li a
+{
     font-size: 15px;
     line-height: 34px;
 
@@ -93,26 +103,35 @@
 
 a,
 a:hover,
-a:focus {
+a:focus
+{
     text-decoration: none;
 
     outline: none;
 }
 
-.avatarSection {
-    margin: 0 auto;
-    text-align: center;
+.avatarSection
+{
     position: absolute;
     bottom: -235px;
-    width: 100%;
+
     display: block;
+
+    width: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+    border: 1px solid green;
+    background-color: rgba(251, 251, 161, 0.3);
 }
 
-.avatar {
-    border: 10px solid #eff0f4;
-    border-radius: 250px;
+.avatar
+{
+    width: 460px;
     height: 460px;
     margin: 0 auto;
-    width: 460px;
+
+    border: 10px solid #eff0f4;
+    border-radius: 250px;
     background-color: #ffdbe1;
 }

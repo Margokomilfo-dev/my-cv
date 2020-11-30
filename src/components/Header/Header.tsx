@@ -1,5 +1,7 @@
 import React from "react"
 import s from './Header.module.css'
+import {Avatar} from "./Avatar";
+import {SocialNetworks} from "./SocialNetworks";
 
 type HeaderPropsType = {}
 export const Header: React.FC<HeaderPropsType> = (props) => {
@@ -10,15 +12,7 @@ export const Header: React.FC<HeaderPropsType> = (props) => {
                     <div className={s.myLogo}>My logo</div>
                     <h2>Marharyta Pryshchapionak</h2>
                     <h3>frontend-developer</h3>
-
-                    <div className={s.social}>
-                        <ul className={s.socialList}>
-                            <li><a className={s.twitter} href='#'>tw</a></li>
-                            <li><a className={s.facebook} href='#'>fb </a></li>
-                            <li><a className={s.linkedin} href='#'>lk </a></li>
-                            <li><a className={s.github} href='#'>gh</a></li>
-                        </ul>
-                    </div>
+                    <SocialNetworks/>
                 </div>
             </div>
             <Avatar/>
@@ -26,10 +20,4 @@ export const Header: React.FC<HeaderPropsType> = (props) => {
     )
 }
 
-export const Avatar: React.FC = () => {
-    return (
-        <div className={s.avatarSection}>
-            <div className={s.avatar}>photo</div>
-        </div>
-    )
-}
+

@@ -1,5 +1,7 @@
 import React from "react"
 import s from './AboutMe.module.css'
+import {PersonalDataLeftPart} from "./PersonalDataLeftPart";
+import {HobbiesRightPart} from "./HobbiesRightPart";
 
 type AboutMePropsType = {}
 export const AboutMe: React.FC<AboutMePropsType> = (props) => {
@@ -17,36 +19,11 @@ export const AboutMe: React.FC<AboutMePropsType> = (props) => {
                         reprehenderit temporibus? Est quibusdam recusandae sit.</p>
                 </div>
                 <div className={s.commonInf}>
-                    <div className={s.left}>
-                        <div className={s.data}>
-                            <div className={s.dataInfo}><span>Phone:</span> +48 796-027-535</div>
-                            <div className={s.dataInfo}><span>Email:</span> margokomilfo-dev@gmail.com</div>
-                            <div className={s.dataInfo}><span>website:</span> myCV.com</div>
-                            <div className={s.dataInfo}><span>Address:</span> Wroclaw, Poland</div>
-                        </div>
-                        <div className={s.signature}>Marharyta Pryshchapionak</div>
-                        <button>Download resume</button>
-                    </div>
-                    <div className={s.right}>
-                        <div className={s.interests}>
-                            <h4>hobbies & interests</h4>
-                            <div className={s.titles}>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                                <div className={s.interest}>name</div>
-                            </div>
-                        </div>
-                    </div>
+                    <PersonalDataLeftPart/>
+                    <HobbiesRightPart/>
                 </div>
-
             </div>
         </div>
     )
 }
+
