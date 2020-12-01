@@ -1,0 +1,148 @@
+.myResume {
+    position: relative;
+    padding: 150px 0;
+
+    background-color: #f0f2f7;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid blue;
+}
+
+.title > h2 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    padding-bottom: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #2c3d4f;
+}
+
+.border {
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 0 auto 40px;
+    background-color: #f54f36;
+}
+
+/*resume*/
+.timeLine {
+    height: 100%;
+}
+
+.category {
+    position: relative;
+
+    text-align: center;
+}
+
+.category span {
+    font-size: 36px;
+    font-weight: bold;
+
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #2c3d4f;
+    border-radius: 5px;
+    background-color: #dbdde5;
+}
+
+.categoryIcon {
+    position: absolute;
+    bottom: -50px;;
+    left: calc(50% - 15px);
+
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: red;
+}
+
+.categoryEndIcon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: grey;
+}
+
+.contentBlocks {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+
+    border-right: 1px solid grey;
+}
+
+.right {
+    width: 50%;
+
+    border-left: 1px solid grey;
+}
+
+.blocks {
+    padding: 35px;
+}
+
+.right .blocks {
+    margin-top: 50px;
+}
+
+.blockIcon {
+    position: absolute;
+
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    background-color: grey;
+}
+
+.iconLeft {
+    right: -44px;
+}
+
+.iconRight {
+    left: -44px;
+}
+
+.block {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.block:hover,
+.block:hover .blockIcon {
+    background-color: lightpink;
+}
+
+
+.blockLeft,
+.blockLeft p {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.blockRight,
+.blockRight p {
+    align-items: flex-start;
+    text-align: left;
+}
