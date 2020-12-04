@@ -13,16 +13,19 @@ export const MyResume: React.FC<MyResumePropsType> = (props) => {
                 </div>
                 <div className={s.resume}>
                     <div className={s.timeLine}>
+
+
+
                         <div className={s.category}>
                             <span>Experiences</span>
-                            <div className={s.categoryIcon}></div>
+                            <div className={s.categoryIcon}> </div>
                         </div>
 
                         <div className={s.contentBlocks}>
                             <div className={s.left}>
                                 <div className={s.blocks}>
                                     <div className={`${s.block} ${s.blockLeft}`}>
-                                        <div className={`${s.blockIcon} ${s.iconLeft}`}></div>
+                                        <div className={`${s.blockIcon} ${s.iconLeft}`}> </div>
                                         <h4>position</h4>
                                         <p>Place - date</p>
                                         <p>Lorem ipsum dolor sit amet, corporis explicabo maiores minima numquam
@@ -32,7 +35,7 @@ export const MyResume: React.FC<MyResumePropsType> = (props) => {
                                         </p>
                                     </div>
                                     <div className={`${s.block} ${s.blockLeft}`}>
-                                        <div className={`${s.blockIcon} ${s.iconLeft}`}></div>
+                                        <div className={`${s.blockIcon} ${s.iconLeft}`}> </div>
                                         <h4>position</h4>
                                         <p>Place - date</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, facilis?
@@ -40,19 +43,19 @@ export const MyResume: React.FC<MyResumePropsType> = (props) => {
                                             tempora veniam voluptas? Ab quos rem sunt.</p>
                                     </div>
                                 </div>
-
                             </div>
+
                             <div className={s.right}>
                                 <div className={s.blocks}>
                                     <div className={`${s.block} ${s.blockRight}`}>
-                                        <div className={`${s.blockIcon} ${s.iconRight}`}></div>
+                                        <div className={`${s.blockIcon} ${s.iconRight}`}> </div>
                                         <h4>position</h4>
                                         <p>Place - date</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, facilis?
                                             Ab quos rem sunt. consectetur adipisicing elit. Debitis, facilis</p>
                                     </div>
                                     <div className={`${s.block} ${s.blockRight}`}>
-                                        <div className={`${s.blockIcon} ${s.iconRight}`}></div>
+                                        <div className={`${s.blockIcon} ${s.iconRight}`}> </div>
                                         <h4>position</h4>
                                         <p>Place - date</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis,
@@ -61,24 +64,25 @@ export const MyResume: React.FC<MyResumePropsType> = (props) => {
                                 </div>
                             </div>
                         </div>
+
+
                         <div className={s.category}>
                             <span>Education</span>
-                            <div className={s.categoryIcon}></div>
+                            <div className={s.categoryIcon}> </div>
                         </div>
-
 
                         <div className={s.contentBlocks}>
                             <div className={s.left}>
                                 <div className={s.blocks}>
                                     <div className={`${s.block} ${s.blockLeft}`}>
-                                        <div className={`${s.blockIcon} ${s.iconLeft}`}></div>
+                                        <div className={`${s.blockIcon} ${s.iconLeft}`}> </div>
                                         <h4>position</h4>
                                         <p>Place - date</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis,
                                             facilis?</p>
                                     </div>
                                     <div className={`${s.block} ${s.blockLeft}`}>
-                                        <div className={`${s.blockIcon} ${s.iconLeft}`}></div>
+                                        <div className={`${s.blockIcon} ${s.iconLeft}`}> </div>
                                         <h4>position</h4>
                                         <p>Place - date</p>
                                         <p>Lorem ipsum dolor sit amet, corporis explicabo maiores minima numquam
@@ -92,14 +96,14 @@ export const MyResume: React.FC<MyResumePropsType> = (props) => {
                             <div className={s.right}>
                                 <div className={s.blocks}>
                                     <div className={`${s.block} ${s.blockRight}`}>
-                                        <div className={`${s.blockIcon} ${s.iconRight}`}></div>
+                                        <div className={`${s.blockIcon} ${s.iconRight}`}> </div>
                                         <h4>position</h4>
                                         <p>Place - date</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis,
                                             facilis?</p>
                                     </div>
                                     <div className={`${s.block} ${s.blockRight}`}>
-                                        <div className={`${s.blockIcon} ${s.iconRight}`}></div>
+                                        <div className={`${s.blockIcon} ${s.iconRight}`}> </div>
                                         <h4>position</h4>
                                         <p>Place - date</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, facilis?
@@ -113,7 +117,7 @@ export const MyResume: React.FC<MyResumePropsType> = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className={s.categoryEndIcon}></div>
+                        <div className={s.categoryEndIcon}> </div>
                     </div>
                 </div>
             </div>
