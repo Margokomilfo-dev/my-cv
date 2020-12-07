@@ -1,38 +1,3 @@
-.portfolio {
-    position: relative;
-    padding: 150px 0;
-
-}
-
-.container {
-    width: 1170px;
-    margin: 0 auto;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid blue;
-}
-
-.title > h2 {
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 60px;
-    padding-bottom: 40px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #2c3d4f;
-}
-
-.border {
-    display: block;
-    width: 60px;
-    height: 2px;
-    margin: 0 auto 40px;
-    background-color: #f54f36;
-}
 
 /*menu*/
 .menu {
@@ -43,6 +8,7 @@
 .menu ul{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     list-style-type: none;
     width: 100%;
     margin: 10px 0;
@@ -55,17 +21,16 @@
     margin: 0 10px;
     padding: 10px 0;
     cursor: pointer;
-
-}
-li {
     background-color: #f2f2f2;
+    border: 1px solid lightgrey;
     border-radius: 3px;
     color: #6f6f6f;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
 }
-li.selected {
+
+.menu ul li.selected {
     background-color: #F54F36;
     color: #FFFFFF;
 }
@@ -73,7 +38,9 @@ li.selected {
 .portfolioContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 .work {
     width: 360px;
     height: 280px;

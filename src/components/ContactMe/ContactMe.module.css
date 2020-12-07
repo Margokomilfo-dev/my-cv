@@ -1,35 +1,31 @@
-.contactMe {
-    position: relative;
-    padding: 150px 0;
-
-}
-
-.container {
-    width: 1170px;
-    margin: 0 auto;
-}
-
-.title {
+.contactForm {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    border: 1px solid blue;
+    width: 60%;
+    margin: 20px auto;
 }
-
-.title > h2 {
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 60px;
-    padding-bottom: 40px;
-    letter-spacing: 5px;
+.contactForm input, textarea {
+    color: #999999;
+    font-size: 14px;
     text-transform: uppercase;
-    color: #2c3d4f;
+    height: 64px;
+    padding: 26px 3%;
+    background: none repeat scroll 0 0 #f2f2f2;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 0;
 }
 
-.border {
-    display: block;
-    width: 60px;
-    height: 2px;
-    margin: 0 auto 40px;
-    background-color: #f54f36;
+.contactForm textarea{
+    height: 200px;
+}
+.button {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    color: #FFFFFF;
+    padding: 22px;
+    background-color: #F54F36;
 }

@@ -1,0 +1,56 @@
+.blockName {
+    position: relative;
+    padding: 150px 0;
+    border: 2px solid deeppink;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #de5b37;
+}
+.content
+{
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.blockTitle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid blue;
+
+    /*margin-top: 170px;*/
+    /*margin-bottom: 50px;*/
+}
+
+.blockTitle > h2 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    padding-bottom: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #2c3d4f;
+}
+.blockTitle p
+{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #7e868e;
+}
+
+.blockTitle p span
+{
+    font-weight: bold;
+    color: #7e878f;
+}
+
+.border {
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 0 auto 40px;
+    background-color: #f54f36;
+}

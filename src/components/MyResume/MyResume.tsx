@@ -1,15 +1,16 @@
 import React from "react"
 import s from './MyResume.module.css'
+import '../../common.css'
 
 type MyResumePropsType = {}
 
 export const MyResume: React.FC<MyResumePropsType> = (props) => {
     return (
-        <div className={s.myResume}>
-            <div className={s.container}>
-                <div className={s.title}>
+        <div className='blockName'>
+            <div className='container'>
+                <div className='blockTitle'>
                     <h2>My Resume</h2>
-                    <span className={s.border}> </span>
+                    <span className='border'> </span>
                 </div>
                 <div className={s.resume}>
                     <div className={s.timeLine}>

@@ -12,7 +12,7 @@ export const PersonalDataLeftPart: React.FC<PersonalDataLeftPartPropsType> = (pr
                 <div className={s.dataInfo}><span>Address:</span> Wroclaw, Poland</div>
             </div>
             <div className={s.signature}>Marharyta Pryshchapionak</div>
-            <button>Download resume</button>
+            <button className={s.button}>Download resume</button>
         </div>
     )
 }

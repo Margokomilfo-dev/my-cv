@@ -1,15 +1,16 @@
 import React from "react"
 import s from './Skills.module.css'
+import '../../common.css'
 
 type SkillPropsType = {}
 
 export const Skills: React.FC<SkillPropsType> = (props) => {
     return (
-        <div className={s.skills}>
-            <div className={s.container}>
-                <div className={s.title}>
+        <div className='blockName'>
+            <div className='container'>
+                <div className='blockTitle'>
                     <h2>Skills</h2>
-                    <span className={s.border}> </span>
+                    <span className='border'> </span>
                 </div>
                 <div className={s.skillsContainer}>
 

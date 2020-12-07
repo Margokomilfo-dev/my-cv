@@ -1,15 +1,17 @@
 import React from "react"
 import s from './Portfolio.module.css'
+import '../../common.css'
+
 
 type PortfolioPropsType = {}
 
 export const Portfolio: React.FC<PortfolioPropsType> = (props) => {
     return (
-        <div className={s.portfolio}>
-            <div className={s.container}>
-                <div className={s.title}>
+        <div className='blockName'>
+            <div className='container'>
+                <div className='blockTitle'>
                     <h2>Portfolio</h2>
-                    <span className={s.border}> </span>
+                    <span className='border'> </span>
                 </div>
                 <div className={s.menu}>
                     <ul>
