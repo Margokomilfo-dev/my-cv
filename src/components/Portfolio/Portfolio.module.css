@@ -60,3 +60,23 @@
 .details span  {
     text-transform: uppercase;
 }
+
+
+@media screen and (max-width: 768px){
+    .portfolioContainer {
+        width: 100%;
+    }
+
+    .work {
+        width:45%;
+    }
+}
+@media screen and (max-width: 700px){
+    .portfolioContainer {
+        width: 100%;
+    }
+
+    .work {
+        width:90%;
+    }
+}

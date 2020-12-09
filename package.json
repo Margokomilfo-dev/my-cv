@@ -1,5 +1,5 @@
 {
-  "homepage":"https://margokomilfo-dev.github.io/my-cv/",
+  "homepage": "https://margokomilfo-dev.github.io/my-cv/",
   "name": "my-cv",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.9.8",
     "csscomb": "^4.3.0",
     "gh-pages": "^3.1.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",

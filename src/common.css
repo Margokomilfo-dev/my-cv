@@ -54,3 +54,13 @@
     margin: 0 auto 40px;
     background-color: #f54f36;
 }
+@media screen and (max-width: 1125px){
+    .container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 700px){
+    .blockTitle > h2 {
+        font-size: 45px;
+    }
+}

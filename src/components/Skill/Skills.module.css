@@ -28,3 +28,27 @@
     font-weight: bold;
     margin: 10px 0;
 }
+@media screen and (max-width: 1025px){
+    .skillsContainer {
+        width: 100%;
+    }
+    .skill {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 768px){
+    .skillsContainer {
+        width: 100%;
+    }
+    .skill {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 700px){
+    .skillsContainer {
+        width: 100%;
+    }
+    .skill {
+        width: 90%;
+    }
+}

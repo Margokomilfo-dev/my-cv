@@ -125,3 +125,14 @@
     border-radius: 250px;
     background-color: #ffdbe1;
 }
+
+@media screen and (max-width: 700px){
+    .content > h2
+    {
+        font-size: 35px;
+    }
+    .content > h3
+    {
+        font-size: 25px;
+    }
+}

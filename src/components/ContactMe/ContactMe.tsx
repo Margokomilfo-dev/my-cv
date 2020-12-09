@@ -1,4 +1,5 @@
 import React from "react"
+// import s from './ContactMe.module.sass'
 import s from './ContactMe.module.css'
 
 type ContactMePropsType = {}
@@ -23,7 +24,7 @@ export const ContactMe: React.FC<ContactMePropsType> = (props) => {
                         <textarea placeholder='message' name='message' rows={8}> </textarea>
                     </div>
                     <div>
-                        <button className={s.button}>Send Message</button>
+                        <button type={"submit"} className={s.button}>Send Message</button>
                     </div>
                 </div>
             </div>
