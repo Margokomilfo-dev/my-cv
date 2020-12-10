@@ -13,11 +13,15 @@ export const AboutMe: React.FC<AboutMePropsType> = (props) => {
                     <h2>About Me</h2>
                     <span className='border'> </span>
                     <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci aperiam corporis deleniti ducimus enim eos, facere harum id
-                        incidunt nesciunt obcaecati reiciendis, reprehenderit temporibus? Est quibusdam recusandae sit.</span>
+                        incidunt nesciunt obcaecati reiciendis,
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci aperiam corporis deleniti ducimus enim eos, facere harum id
+                        incidunt nesciunt obcaecati rreprehenderit temporibus? Est quibusdam recusandae sit.</span>
                     </p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci aperiam
                         corporis deleniti ducimus enim eos, facere harum id incidunt nesciunt obcaecati reiciendis,
-                        reprehenderit temporibus? Est quibusdam recusandae sit.</p>
+                        reprehenderit temporibus? Est quibusdam r ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci aperiam
+                        corporis deleniti ducimus enim eos, facere harum id incidunt nesciunt obcaecati reiciendis,
+                        reprehenderit teecusandae sit.</p>
                 </div>
                 <div className={s.commonInf}>
                     <PersonalDataLeftPart/>

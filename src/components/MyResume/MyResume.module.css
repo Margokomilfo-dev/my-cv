@@ -10,13 +10,14 @@
     font-weight: bold;
 
     display: inline-block;
-    padding: 25px;
-    text-align: center;
-    letter-spacing: 0;
-    text-transform: uppercase;
     color: #2c3d4f;
+    text-align: center;
     border-radius: 5px;
     background-color: #dbdde5;
+    padding: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    line-height: 16px;
 }
 
 .categoryIcon {
@@ -28,7 +29,6 @@
     background-color: red;
     left: calc(50% - 14px);
     z-index:1
-
 }
 .timeLine{
     position: relative;
@@ -48,57 +48,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-}
-
-.block {
-    width: 40%;
-    position: relative;
-}
-.content {
-    margin: 20px;
-    padding: 10px 20px;
-}
-.content:hover,
-.content:hover .blockIcon {
-    background-color: lightpink;
-}
-
-.block:nth-child(2n-1){
-    text-align: right;
-    left: calc(-20% + 2px);
-    border-right: 3px solid grey;
-    margin-top: -50px;
-
-}
-.block:nth-child(2n){
-    left: calc(20%);
-    margin-top: -100px;
-    border-left: 3px solid grey;
-}
-.block:first-child{
-    margin-top: 0;
-    padding: 50px 0 0 0;
-}
-/*.block:last-child{*/
-/*    padding: 0 0 50px 0;*/
-/*}*/
-.blockIcon {
-    width: 16px;
-    height: 16px;
-    border-radius: 15px;
-    background-color: grey;
-    z-index: 1;
-}
-
-.block:nth-child(2n-1) .blockIcon {
-    position: absolute;
-    right: -10px;
-}
-.block:nth-child(2n) .blockIcon {
-    position: absolute;
-    left: -10px;
+    border: 1px solid red;
 }
 
 @media screen and (max-width: 1025px){
@@ -120,41 +72,23 @@
     .category{
         margin-bottom: 20px;
     }
+    .categoryIcon {
+        display: none;
+    }
+    .categoryEndIcon {
+        display: none;
+    }
     .contentBlocks{
         width: 90%;
     }
-
-    .block {
-        width: 100%;
-        border: 1px solid green;
-        margin: 20px 0;
+}
+@media screen and (max-width: 500px){
+    .category span{
+        font-size: 30px;
     }
-    .content {
-        margin: 0;
-        padding: 0;
-        border: 1px solid red;
-    }
-    .block:nth-child(2n-1){
-        text-align: center;
-        left: 0;
-        margin-top: 0;
-        border: none;
-
-    }
-    .block:nth-child(2n){
-        text-align: center;
-        left: 0;
-        margin-top: 0;
-        border: none;
-    }
-    .block:first-child{
-        margin-top: 0;
-        padding:0;
-    }
-    .blockIcon {
-        display: none;
-    }
-    .categoryIcon, .categoryEndIcon {
-        display: none;
+}
+@media screen and (max-width: 400px){
+    .category span{
+        font-size: 25px;
     }
 }

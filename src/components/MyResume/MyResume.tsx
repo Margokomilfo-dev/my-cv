@@ -39,6 +39,8 @@ export const MyResume: React.FC<MyResumePropsType> = (props) => {
                             <Block/>
                             <Block/>
                             <Block/>
+                            <Block/>
+
                         </div>
 
                         <div className={s.categoryEndIcon}> </div>

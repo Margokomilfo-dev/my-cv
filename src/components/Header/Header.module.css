@@ -33,20 +33,21 @@
     border: 1px solid gray;
 }
 
-.content > h2
+.content h2
 {
-    font-size: 50px;
+    color: #FFFFFF;
     font-weight: 800;
+    font-size: 80px;
+
 
     text-transform: uppercase;
 
-    color: #fff;
 }
 
-.content > h3
+.content h3
 {
-    font-size: 33px;
     font-weight: 800;
+    font-size: 33px;
 
     text-transform: uppercase;
 
@@ -125,14 +126,76 @@
     border-radius: 250px;
     background-color: #ffdbe1;
 }
+@media screen and (max-width: 1600px){
+    .content h2
+    {
+        font-size: 60px;
+    }
+}
 
+@media screen and (max-width: 1200px){
+    .content h2
+    {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 900px){
+    .content h2
+    {
+        font-size: 40px;
+    }
+}
 @media screen and (max-width: 700px){
-    .content > h2
+    .content h2
     {
         font-size: 35px;
     }
-    .content > h3
+    .content h3
     {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .content h2
+    {
+        font-size: 30px;
+    }
+    .content h3
+    {
+        font-size: 20px;
+    }
+    .avatar{
+        width: 360px;
+        height: 360px;
+    }
+}
+@media screen and (max-width: 400px){
+    .content h2
+    {
+        font-size: 27px;
+    }
+    .content h3
+    {
+        font-size: 18px;
+    }
+    .avatar{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .content h2
+    {
+        font-size: 25px;
+    }
+    .content h3
+    {
+        font-size: 16px;
+    }
+    .avatar{
+        width: 250px;
+        height: 250px;
     }
 }
