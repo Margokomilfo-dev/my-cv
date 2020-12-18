@@ -1,0 +1,36 @@
+.left
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  width: 40%
+  padding: 25px 35px 0 0
+  border: 1px solid #454505
+  .data
+    margin-bottom: 20px
+    .dataInfo
+      font-size: 16px
+      color: #7e878f
+      line-height: 25px
+      margin: 0 0 10px
+    & span
+      display: inline-block
+      width: 75px
+      font-weight: bold
+  .signature
+    color: #2c3e50
+    font-family: 'Arizonia', cursive
+    font-size: 30px
+    margin: 30px
+  .button
+    width: 80%
+    padding: 15px 25px
+    text-transform: uppercase
+    background-color: #F54F36
+  @media screen and (max-width: 1025px)
+    justify-content: flex-start
+    padding-left: 20px
+  @media screen and (max-width: 768px)
+    width: 100%
+    align-items: center
+    padding: 0
+    margin-bottom: 50px

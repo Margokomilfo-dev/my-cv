@@ -1,8 +1,9 @@
-import React from "react"
-import s from './AboutMe.module.css'
-import  '../../common.css'
-import {PersonalDataLeftPart} from "./PersonalDataLeftPart";
-import {HobbiesRightPart} from "./HobbiesRightPart";
+import React from 'react'
+import s from './AboutMe.module.sass'
+import {PersonalDataLeftPart} from './PersonalDataLeftPart/PersonalDataLeftPart'
+import {HobbiesRightPart} from './HobbiesRightPart/HobbiesRightPart'
+import { AboutMeCommon } from './AboutMeCommon/AboutMeCommon'
+
 
 type AboutMePropsType = {}
 export const AboutMe: React.FC<AboutMePropsType> = (props) => {
@@ -12,16 +13,8 @@ export const AboutMe: React.FC<AboutMePropsType> = (props) => {
                 <div className='blockTitle'>
                     <h2>About Me</h2>
                     <span className='border'> </span>
-                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci aperiam corporis deleniti ducimus enim eos, facere harum id
-                        incidunt nesciunt obcaecati reiciendis,
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci aperiam corporis deleniti ducimus enim eos, facere harum id
-                        incidunt nesciunt obcaecati rreprehenderit temporibus? Est quibusdam recusandae sit.</span>
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci aperiam
-                        corporis deleniti ducimus enim eos, facere harum id incidunt nesciunt obcaecati reiciendis,
-                        reprehenderit temporibus? Est quibusdam r ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium adipisci aperiam
-                        corporis deleniti ducimus enim eos, facere harum id incidunt nesciunt obcaecati reiciendis,
-                        reprehenderit teecusandae sit.</p>
+
+                    <AboutMeCommon/>
                 </div>
                 <div className={s.commonInf}>
                     <PersonalDataLeftPart/>
@@ -31,4 +24,3 @@ export const AboutMe: React.FC<AboutMePropsType> = (props) => {
         </div>
     )
 }
-
