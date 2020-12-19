@@ -1,6 +1,5 @@
 import React from 'react'
 import s from './Header.module.sass'
-import '../../common.css'
 import {Avatar} from './Avatar/Avatar'
 import {SocialNetworks} from './SocialNetworks/SocialNetworks'
 

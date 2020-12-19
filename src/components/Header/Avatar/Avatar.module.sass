@@ -3,7 +3,6 @@
   bottom: -235px
   width: 100%
   margin: 0 auto
-  border: 2px solid green
   .avatar
     width: 460px
     height: 460px
@@ -16,12 +15,24 @@
     background-position: center
     background-repeat: no-repeat
 
-    @media screen and (max-width: 500px)
-      width: 360px
-      height: 360px
+    @media screen and (max-width: 540px)
+      width: 400px
+      height: 400px
+      border: 7px solid #fff
+    @media screen and (max-width: 420px)
+      width: 370px
+      height: 370px
     @media screen and (max-width: 400px)
       width: 300px
       height: 300px
     @media screen and (max-width: 320px)
       width: 250px
       height: 250px
+  @media screen and (max-width: 540px)
+    bottom: -190px
+  @media screen and (max-width: 420px)
+    bottom: -180px
+  @media screen and (max-width: 400px)
+    bottom: -145
+  @media screen and (max-width: 320px)
+    bottom: -125px

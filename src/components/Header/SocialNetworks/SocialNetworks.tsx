@@ -7,19 +7,35 @@ import github from '../../../assets/img/github.png'
 import instagram from '../../../assets/img/instagram.png'
 import twitter from '../../../assets/img/twitter.png'
 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+
+// const state = [
+//     {id: v1(), name: 'tw',  img: facebook, link: '#' },
+//     {id: v1(), name: 'fb', img: linkedin, link: '#'},
+//     {id: v1(), name: 'lk', img: github, link: '#'},
+//     {id: v1(), name: 'gh', img: instagram, link: '#'},
+//     {id: v1(), name: 'gh', img: twitter, link: '#'},
+// ]
 const state = [
-    {id: v1(), name: 'tw',  img: facebook },
-    {id: v1(), name: 'fb', img: linkedin},
-    {id: v1(), name: 'lk', img: github},
-    {id: v1(), name: 'gh', img: instagram},
-    {id: v1(), name: 'gh', img: twitter},
+    {id: v1(), name: 'tw',  img: faFacebookF, link: '#' },
+    {id: v1(), name: 'fb', img: faLinkedinIn, link: '#'},
+    {id: v1(), name: 'lk', img: faGithub, link: '#'},
+    {id: v1(), name: 'gh', img: faInstagram, link: '#'},
+    {id: v1(), name: 'gh', img: faTwitter, link: '#'},
 ]
 export const SocialNetworks: React.FC = () => {
-    const socials = state.map(network => <li><a className={s.name} href='#'><img src={network.img} alt="facebook"/></a></li>)
+    // const socials = state.map(network => <li><a className={s.name} href={network.link}><img src={network.img} alt="facebook"/></a></li>)
+    const socials = state.map(network => <li><a className={s.name} href={network.link}> <FontAwesomeIcon icon={network.img} className={s.socialLib}/></a></li>)
     return (
         <div className={s.social}>
             <ul className={s.socialList}>
-                {state.map(network => <li><a className={s.name} href='#'><img src={network.img} alt="facebook"/></a></li>)}
+                {socials}
             </ul>
         </div>
     )

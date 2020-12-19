@@ -3,20 +3,27 @@
     display: flex
     height: 100%
     min-height: 900px
-    //background: url(https://i.pinimg.com/originals/02/1a/a7/021aa72493f24390fc53bb457892f9c9.jpg)
-    background: url('./../../assets/img/workPlace.jpg')
+    background: url(https://i.pinimg.com/originals/02/1a/a7/021aa72493f24390fc53bb457892f9c9.jpg)
+    //background: url('./../../assets/img/workPlace.jpg')
+    //background: url('./../../assets/img/bg2.jpg')
     background-attachment: fixed !important
     background-position: center center
     background-size: cover
     &::before
         position: absolute
         content: ''
-        background-color: black
+        background-color: rgba(53,60,79,1)
         opacity: 0.6
         top: 0
         bottom: 0
         left: 0
         right: 0
+    @media screen and (max-width: 768px)
+        min-height: 800px
+    @media screen and (max-width: 540px)
+        min-height: 700px
+    @media screen and (max-width: 400px)
+        min-height: 650px
     .content
         margin: 100px 0 0 0
         text-align: center
@@ -24,20 +31,22 @@
         position: relative
         z-index: 1
         .myLogo
-            width: 200px
-            height: 200px
-            margin: 0 auto 40px
+            width: 130px
+            height: 130px
+            margin: 0 auto 50px
             color: white
             //border-radius: 100%
 
-            background-image: url('./../../assets/img/mp3.jpg')
+            background-image: url('./../../assets/img/mp.jpg')
             //-webkit-box-shadow: 0px 0px 26px 2px rgba(255,255,255,1)
             //-moz-box-shadow: 0px 0px 26px 2px rgba(255,255,255,1)
             box-shadow: 0px 0px 20px 1px rgba(255,255,255,1)
             background-size: cover
             background-position: center
             background-repeat: no-repeat
-
+            @media screen and (max-width: 400px)
+                width: 100px
+                height: 100px
         & h2
             color: #FFFFFF
             font-weight: 800
@@ -49,25 +58,33 @@
                 font-size: 50px
             @media screen and (max-width: 900px)
                 font-size: 40px
-            @media screen and (max-width: 700px)
+            @media screen and (max-width: 768px)
                 font-size: 35px
-            @media screen and (max-width: 500px)
+            @media screen and (max-width: 620px)
                 font-size: 30px
-            @media screen and (max-width: 400px)
+            @media screen and (max-width: 540px)
                 font-size: 27px
-            @media screen and (max-width: 320px)
+            @media screen and (max-width: 470px)
                 font-size: 25px
+            @media screen and (max-width: 440px)
+                font-size: 22px
+            @media screen and (max-width: 320px)
+                font-size: 20px
         & h3
             font-weight: 800
             font-size: 33px
             text-transform: uppercase
             color: #fff
-            @media screen and (max-width: 700px)
-                font-size: 25px
-            @media screen and (max-width: 500px)
+            @media screen and (max-width: 768px)
+                font-size: 23px
+            @media screen and (max-width: 620px)
+                font-size: 21px
+            @media screen and (max-width: 540px)
                 font-size: 20px
-            @media screen and (max-width: 400px)
+            @media screen and (max-width: 470px)
                 font-size: 18px
+            @media screen and (max-width: 440px)
+                font-size: 15px
             @media screen and (max-width: 320px)
-                font-size: 16px
+                font-size: 13px
 
