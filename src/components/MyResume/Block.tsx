@@ -1,24 +1,28 @@
 import React from "react";
-import s from "./Block.module.css";
+import s from "./Block.module.sass";
 
-type BlockPropsType = {}
+type BlockPropsType = {
+    position:string
+    companyName: string
+    from: number
+    to: string
+    description: string
+}
 export const Block: React.FC<BlockPropsType> = (props) => {
     return (
-        <div className={`${s.block}`}>
+        <div className={`${s.block}`} data-aos="fade-in">
             <div className={s.content}>
                 <div className={s.blockIcon}> </div>
                 <div className={s.blockArrow}> </div>
                 <div className={s.postTitle}>
-                    <h4>SENIOR DEVELOPER 1</h4>
+                    <h4>{props.position}</h4>
                 </div>
                 <div className={s.postSubtitle}>
-                    <span>Company Name</span>
-                    <span className={s.dot}>2012 - Current</span>
+                    <span>{props.companyName}</span>
+                    <span className={s.dot}>{props.from} - {props.to}</span>
                 </div>
                 <div className={s.postContent}>
-                    <p>Lorem ipsum dolor sit amet, corporis explicabo maiores minima numquam
-                        possimus
-                    </p>
+                    <p>{props.description}</p>
                 </div>
             </div>
         </div>

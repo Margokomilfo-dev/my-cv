@@ -3,16 +3,18 @@
     padding: 150px 0;
     border: 2px solid deeppink;
 }
-.blockName:nth-child(odd){
+
+.blockName:nth-child(odd) {
     background-color: #f0f2f7;
 }
+
 .container {
     width: 80%;
     margin: 0 auto;
-    border: 2px solid #de5b37;
+    /*border: 2px solid #de5b37;*/
 }
-.content
-{
+
+.content {
     text-align: center;
     border: 1px solid gray;
 }
@@ -29,7 +31,7 @@
     /*margin-bottom: 50px;*/
 }
 
-.blockTitle  h2 {
+.blockTitle h2 {
     font-size: 60px;
     font-weight: 800;
     line-height: 60px;
@@ -38,8 +40,8 @@
     text-transform: uppercase;
     color: #2c3d4f;
 }
-.blockTitle p
-{
+
+.blockTitle p {
     color: #7e868e;
     font-size: 16px;
     line-height: 28px;
@@ -47,8 +49,7 @@
     padding-bottom: 10px;
 }
 
-.blockTitle p span
-{
+.blockTitle p span {
     font-weight: bold;
     color: #7e878f;
 }
@@ -60,24 +61,26 @@
     margin: 0 auto 40px;
     background-color: #f54f36;
 }
-@media screen and (max-width: 1125px){
-    .container{
+
+@media screen and (max-width: 1125px) {
+    .container {
         width: 90%;
     }
 }
-@media screen and (max-width: 700px){
+
+@media screen and (max-width: 700px) {
     .blockTitle h2 {
         font-size: 45px;
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .blockTitle h2 {
         font-size: 35px;
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
     .blockTitle h2 {
         font-size: 30px;
     }

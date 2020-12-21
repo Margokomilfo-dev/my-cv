@@ -1,31 +1,31 @@
 .social
-  padding: 40px
+  margin-top: 40px
+
   .socialList
     & li
       display: inline-block
       padding: 3px
       overflow: hidden
-    & li a
-      border-radius: 50%
-      border: 1px solid #FFFFFF
-      color: #fff
-      opacity: .6
-      background: transparent
-      display: block
-      font-size: 15px
-      height: 36px
-      width: 36px
-      line-height: 34px
-      margin: 0 0.1em 0.2em 0
-      padding: 0
-      text-align: center
-      &:hover, &:focus
-        text-decoration: none
-        outline: none
-        background-color: plum
-        opacity: 1
-        border: none
-  @media screen and (max-width: 340px)
-    padding: 40px 10px
-.socialLib
-  width: 100%
+
+      & a
+        border-radius: 50%
+        border: 1px solid #FFFFFF
+        color: #fff
+        opacity: .6
+        background: transparent
+        display: block
+        font-size: 15px
+        height: 36px
+        width: 36px
+        line-height: 34px
+        margin: 0 0.1em 0.2em 0
+        padding: 0
+        text-align: center
+        &:hover, &:focus, &:active
+          //-webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+          -webkit-tap-highlight-color: transparent
+          text-decoration: none
+          outline: none
+          background-color: red
+          opacity: 1
+          border: none

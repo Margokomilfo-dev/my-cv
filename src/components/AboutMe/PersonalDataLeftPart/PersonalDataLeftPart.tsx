@@ -19,14 +19,16 @@ const state: StateType ={
 type PersonalDataLeftPartPropsType = {}
 
 export const PersonalDataLeftPart: React.FC<PersonalDataLeftPartPropsType> = (props) => {
-    const personalInfo = state.commonInfo.map(info => <div className={s.dataInfo}><span>{info.title}</span> {info.text}</div>)
+    const personalInfo = state.commonInfo.map(info => <div className={s.dataInfo} data-aos="fade-in"><span>{info.title}</span> {info.text}</div>)
     return (
         <div className={s.left}>
             <div className={s.data}>
-                {personalInfo}
+                <div>
+                    {personalInfo}
+                </div>
             </div>
-            <div>
-                <div className={s.signature}>{state.name}</div>
+            <div className={s.signatureBlock}>
+                <div className={s.signature} data-aos="fade-in">{state.name}</div>
                 <button className={s.button}>Download resume</button>
             </div>
 

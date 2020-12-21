@@ -1,11 +1,29 @@
-.container
-  width: 1170px
-  margin: 0 auto
+.blockName
+  position: relative
+  padding: 130px 0
+  border: 2px solid deeppink
+  &:nth-child(odd)
+    background-color: #f0f2f7
+  @media screen and (max-width: 420px)
+    padding: 90px 0
 
-.title
+.container
+  width: 80%
+  margin: 0 auto
+  @media screen and (max-width: 1160px)
+    width: 90%
+
+.content
+  text-align: center
+  border: 1px solid gray
+
+.blockTitle
+  width: 100%
   display: flex
-  justify-content: center
-  border: 1px solid red
+  align-items: center
+  flex-direction: column
+  border: 1px solid blue
+  text-align: justify
   & h2
     font-size: 60px
     font-weight: 800
@@ -13,11 +31,28 @@
     letter-spacing: 5px
     text-transform: uppercase
     color: #2c3d4f
+    @media screen and (max-width: 700px)
+      font-size: 45px
+    @media screen and (max-width: 500px)
+      font-size: 35px
+    @media screen and (max-width: 400px)
+      font-size: 30px
+
+  & p
+    color: #7e868e
+    font-size: 16px
+    line-height: 28px
+    text-align: left
+    padding-bottom: 10px
+  & p span
+    font-weight: bold
+    color: #7e878f
 
 .border
   display: block
   width: 60px
-  height: 2px
+  height: 3px
   margin: 40px auto
   background-color: #f54f36
-
+  @media screen and (max-width: 420px)
+    margin: 30px auto
