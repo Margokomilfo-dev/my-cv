@@ -1,15 +1,17 @@
 import React from 'react'
 import '../../common.css'
 import s from './MyResume.module.sass'
-import {Block} from './Block'
+import {CourcesBlock, EducationBlock, ExperiencesBlock} from './Block'
 import styles from '../../common/commonStyles.module.sass'
 import {v1} from 'uuid'
 
 type ExperiencesType = { id: string, position: string, companyName: string, from: number, to: string, description: string }
+type EducationType = { id: string, companyName: string, specialization: string, faculty: string, from: number, to: string, description: string }
+type CourcesType = { id: string, position: string, companyName: string, from: number, to: string, description: string }
 type stateType = {
     experiences: Array<ExperiencesType>
-    education: Array<ExperiencesType>
-    cources: Array<ExperiencesType>
+    education: Array<EducationType>
+    cources: Array<CourcesType>
 }
 const state: stateType = {
     experiences: [
@@ -18,8 +20,8 @@ const state: stateType = {
         { id: v1(), position: 'SENIOR DEVELOPER 1', companyName: 'Company Name', from: 2012, to: 'Current', description: 'Lorem ipsum dolor sit amet, corporis explicabo corporis explicabo maiores minima possimus'},
     ],
     education: [
-        { id: v1(), position: 'SENIOR DEVELOPER 1', companyName: 'Company Name', from: 2012, to: 'Current', description: 'Lorem ipsum dolor sit amet, corporis explicabo corporis explicabo maiores minima possimus'},
-        { id: v1(), position: 'SENIOR DEVELOPER 1', companyName: 'Company Name', from: 2012, to: 'Current', description: 'Lorem ipsum dolor sit amet, corporis explicabo corporis explicabo maiores minima possimus'},
+        { id: v1(), companyName: 'Polotsk State University', faculty: 'faculty of information technologies', specialization: 'Information Technologies Software', from: 2006, to: '2011', description: ''},
+        { id: v1(), companyName: 'Polotsk State University', faculty: 'faculty of low', specialization: 'Jurisprudence', from: 2008, to: '2011', description: ''},
     ],
     cources: [
         { id: v1(), position: 'SENIOR DEVELOPER 1', companyName: 'Company Name', from: 2012, to: 'Current', description: 'Lorem ipsum dolor sit amet, corporis explicabo corporis explicabo maiores minima possimus'},
@@ -28,12 +30,11 @@ const state: stateType = {
         { id: v1(), position: 'SENIOR DEVELOPER 1', companyName: 'Company Name', from: 2012, to: 'Current', description: 'Lorem ipsum dolor sit amet, corporis explicabo corporis explicabo maiores minima possimus'},
     ]
 }
-
 type MyResumePropsType = {}
 export const MyResume: React.FC<MyResumePropsType> = (props) => {
-    const expElements = state.experiences.map(exp => <Block key={exp.id} position={exp.position} companyName={exp.companyName} from={exp.from} to={exp.to} description={exp.description}/>)
-    const eduElements = state.education.map(exp => <Block key={exp.id} position={exp.position} companyName={exp.companyName} from={exp.from} to={exp.to} description={exp.description}/>)
-    const courcesElements = state.cources.map(exp => <Block key={exp.id} position={exp.position} companyName={exp.companyName} from={exp.from} to={exp.to} description={exp.description}/>)
+    const expElements = state.experiences.map(exp => <ExperiencesBlock key={exp.id} position={exp.position} companyName={exp.companyName} from={exp.from} to={exp.to} description={exp.description}/>)
+    const eduElements = state.education.map(edu => <EducationBlock key={edu.id} companyName={edu.companyName} faculty={edu.faculty} specialization={edu.specialization} from={edu.from} to={edu.to} description={edu.description} />)
+    const courcesElements = state.cources.map(exp => <CourcesBlock key={exp.id} position={exp.position} companyName={exp.companyName} from={exp.from} to={exp.to} description={exp.description}/>)
     return (
         <div className={styles.blockName} data-aos="fade-in" id='resume'>
             <div className={styles.container}>
