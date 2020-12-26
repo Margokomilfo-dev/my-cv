@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../common.css'
 import s from './MyResume.module.sass'
-import {CoursesBlock, EducationBlock, ExperiencesBlock} from './Block'
+import {CoursesBlock} from './Blocks/CoursesBlock'
 import styles from '../../common/commonStyles.module.sass'
 import {v1} from 'uuid'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -9,6 +9,8 @@ import {faFolderOpen} from '@fortawesome/free-solid-svg-icons'
 import {faBook} from '@fortawesome/free-solid-svg-icons'
 import {faInfo} from '@fortawesome/free-solid-svg-icons'
 import {faBookmark} from '@fortawesome/free-solid-svg-icons'
+import {ExperiencesBlock} from './Blocks/ExperiencesBlock'
+import {EducationBlock} from './Blocks/EducationBlock'
 
 
 export type ExperiencesType = { id: string, position: string, companyName: string, from: number | string, to: number | string, description: string }
@@ -36,8 +38,8 @@ const state: stateType = {
             companyName: 'Polotsk State University (Belarus)',
             from: 2012,
             to: 2017,
-            description: 'Teching next subjects: Pascal, Delphi, HTML, CSS, JavaScript, accounting program 1C. I was' +
-                ' the main teacher of 30 testimony projects.'
+            description: 'Teaching next subjects: Pascal, Delphi, HTML, CSS, JavaScript, accounting program 1C. I' +
+                ' was the main teacher of 30 testimony projects.'
         },
         {
             id: v1(),
@@ -45,7 +47,7 @@ const state: stateType = {
             companyName: 'Felix (Belarus)',
             from: 2010,
             to: 2012,
-            description: 'Creating of web-sites & web-design (Photoshop)'
+            description: 'Creating of web-sites & web-design (Photoshop).'
         },
 
     ],
@@ -76,7 +78,8 @@ const state: stateType = {
             companyName: 'Online-course',
             from: '2020',
             to: 'current',
-            description: 'TypeScript, Ant Design, Appolo GraphQL, Socket.IO, RestAPI, MaterialUI, vanilla JS '
+            description: 'TypeScript, Ant Design, Appolo GraphQL, Socket.IO, RestAPI, MaterialUI, vanilla JS,' +
+                ' Angular, node.js.'
         },
         {
             id: v1(),
@@ -84,9 +87,9 @@ const state: stateType = {
             companyName: 'Online-course',
             from: '2020',
             to: '-',
-            description: 'Props ( attributes ),functional Components, class Components, state, methods of' +
+            description: 'Props (attributes), functional Components, class Components, state, methods of' +
                 ' lifecycle, create-react-app, bind, Babel, ECMAScript, presentational & containerComponents,' +
-                ' redux-thunk, state vs Redux, HOC, React Hooks, useReducer, useMemo, useCallback'
+                ' redux-thunk, state vs Redux, HOC, React Hooks, useReducer, useMemo, useCallback, FLAX, npm/yarn.'
         },
         {
             id: v1(),
@@ -94,8 +97,8 @@ const state: stateType = {
             companyName: 'Online-course',
             from: '2019',
             to: '-',
-            description: 'HTML5, CSS3(BEM, SASS, Bootstrap), JavaScript (HTML DOM), Git & GitHub, Libraries jQuery,' +
-                ' React, Redux, Website testing, Animation'
+            description: 'HTML5, CSS3 (BEM, SASS, Bootstrap), JavaScript (HTML DOM), Git & GitHub, Libraries jQuery,' +
+                ' React, Redux, Website testing, Animation.'
         },
         {
             id: v1(),
@@ -103,7 +106,7 @@ const state: stateType = {
             companyName: 'Online-course',
             from: '2019',
             to: '-',
-            description: 'HTML/CSS/Less/Saas, Bootstrap, Javascript, jQuery, WordPress, Responsive web design (RWD)'
+            description: 'HTML/CSS/Less/Saas, Bootstrap, Javascript, jQuery, WordPress, Responsive web design (RWD).'
         },
         {
             id: v1(),
@@ -111,7 +114,7 @@ const state: stateType = {
             companyName: 'Online-course',
             from: '2019',
             to: '-',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto .'
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto.'
         },
         {
             id: v1(),
@@ -119,7 +122,7 @@ const state: stateType = {
             companyName: 'Online-course',
             from: '2016',
             to: '-',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto debitis error iste natus quis ut .'
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto debitis error iste natus quis ut.'
         },
         {
             id: v1(),
@@ -155,6 +158,7 @@ const state: stateType = {
         },
     ]
 }
+
 type MyResumePropsType = {}
 export const MyResume: React.FC<MyResumePropsType> = (props) => {
     const expElements = state.experiences.map(exp => <ExperiencesBlock key={exp.id} exp={exp}/>)
