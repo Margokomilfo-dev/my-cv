@@ -33,7 +33,16 @@ const initialState = [
 type PortfolioPropsType = {}
 
 export const Portfolio: React.FC<PortfolioPropsType> = (props) => {
+
     const [state, setState] = useState<Array<WorkType>>(initialState)
+    const [active1, setActive1] = useState(true)
+    const [active2, setActive2] = useState(false)
+    const [active3, setActive3] = useState(false)
+    const [active4, setActive4] = useState(false)
+    const [active5, setActive5] = useState(false)
+    const [active6, setActive6] = useState(false)
+    const [active7, setActive7] = useState(false)
+
     const sortWorks = (state: Array<WorkType>, filter: FilterType): Array<WorkType> => {
         if (filter === 'all') return state.filter(w => w.part === 'js' || w.part === 'html-css-js' || w.part ===  'react-redux' || w.part === 'small-tasks')
         if (filter === 'js') return state.filter(w => w.part === 'js' || w.part === 'html-css-js' )
@@ -44,6 +53,79 @@ export const Portfolio: React.FC<PortfolioPropsType> = (props) => {
         if (filter === 'small-tasks') return state.filter(w => w.part === 'small-tasks')
         return state
     }
+
+    const allWorksClick = () => {
+        setActive2(false)
+        setActive3(false)
+        setActive4(false)
+        setActive5(false)
+        setActive6(false)
+        setActive7(false)
+        setState(sortWorks(initialState, 'all'))
+
+        setActive1(true)
+    }
+    const javaScriptClick = () => {
+        setActive1(false)
+        setActive3(false)
+        setActive4(false)
+        setActive5(false)
+        setActive6(false)
+        setActive7(false)
+        setState(sortWorks(initialState, 'html-css'))
+        setActive2(true)
+    }
+    const htmlCssClick = () => {
+        setActive1(false)
+        setActive2(false)
+        setActive4(false)
+        setActive5(false)
+        setActive6(false)
+        setActive7(false)
+        setState(sortWorks(initialState, 'js'))
+        setActive3(true)
+    }
+    const htmlCssJsClick = () => {
+        setActive1(false)
+        setActive2(false)
+        setActive3(false)
+        setActive5(false)
+        setActive6(false)
+        setActive7(false)
+        setState(sortWorks(initialState, 'html-css-js'))
+        setActive4(true)
+    }
+    const reactClick = () => {
+        setActive1(false)
+        setActive2(false)
+        setActive3(false)
+        setActive4(false)
+        setActive6(false)
+        setActive7(false)
+        setState(sortWorks(initialState, 'react'))
+        setActive5(true)
+    }
+    const reactReduxClick = () => {
+        setActive1(false)
+        setActive2(false)
+        setActive3(false)
+        setActive4(false)
+        setActive5(false)
+        setActive7(false)
+        setState(sortWorks(initialState, 'react-redux'))
+        setActive6(true)
+    }
+    const smallTasksClick = () => {
+        setActive1(false)
+        setActive2(false)
+        setActive3(false)
+        setActive4(false)
+        setActive5(false)
+        setActive6(false)
+        setState(sortWorks(initialState, 'small-tasks'))
+        setActive7(true)
+    }
+
     return (
         <div className={styles.blockName} data-aos="fade-in" id='works'>
             <div className={styles.container}>
@@ -53,13 +135,13 @@ export const Portfolio: React.FC<PortfolioPropsType> = (props) => {
                 </div>
                 <div className={s.menu}>
                     <ul>
-                        <li onClick={() => setState(sortWorks(initialState, 'all'))}>All works</li>
-                        <li onClick={() => setState(sortWorks(initialState, 'js'))}>JavaScript</li>
-                        <li onClick={() => setState(sortWorks(initialState, 'html-css'))}>HTML/CSS</li>
-                        <li onClick={() => setState(sortWorks(initialState, 'html-css-js'))}> HTML/CSS/JS</li>
-                        <li onClick={() => setState(sortWorks(initialState, 'react'))}>React </li>
-                        <li onClick={() => setState(sortWorks(initialState, 'react-redux'))}>React/Redux</li>
-                        <li onClick={() => setState(sortWorks(initialState, 'small-tasks'))}>small tasks</li>
+                        <li onClick={allWorksClick} className={active1 ? s.active : ''}>All works</li>
+                        <li onClick={javaScriptClick} className={active2 ? s.active : ''}>JavaScript</li>
+                        <li onClick={htmlCssClick} className={active3 ? s.active : ''}>HTML/CSS</li>
+                        <li onClick={htmlCssJsClick} className={active4 ? s.active : ''}> HTML/CSS/JS</li>
+                        <li onClick={reactClick} className={active5 ? s.active : ''}>React </li>
+                        <li onClick={reactReduxClick} className={active6 ? s.active : ''}>React/Redux</li>
+                        <li onClick={smallTasksClick} className={active7 ? s.active : ''}>small tasks</li>
                     </ul>
                 </div>
 
