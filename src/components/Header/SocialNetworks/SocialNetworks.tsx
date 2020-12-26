@@ -29,8 +29,11 @@ const state = [
 ]
 export const SocialNetworks: React.FC = () => {
     // const socials = state.map(network => <li><a className={s.name} href={network.link}><img src={network.img} alt="facebook"/></a></li>)
-    const socials = state.map(network => <li><a className={s.name} href={network.link}> <FontAwesomeIcon
-        icon={network.img} className={s.socialLib}/></a></li>)
+    const socials = state.map(network =>
+        <li><a className={s.name} href={network.link}>
+            <FontAwesomeIcon icon={network.img} className={s.socialLib}/></a>
+        </li>
+    )
     return (
         <div className={s.social}>
             <ul className={s.socialList}>

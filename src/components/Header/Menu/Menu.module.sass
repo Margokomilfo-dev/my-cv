@@ -4,8 +4,8 @@
   .menu
     position: fixed
     z-index: 1
-    width: 60px
-    height: 60px
+    width: 70px
+    height: 70px
     cursor: pointer
     background-color: #F54F36
     display: flex
@@ -13,8 +13,18 @@
     align-items: center
     justify-content: center
     margin: 20px
+    border-radius: 5px
+    @media screen and (max-width: 565px)
+      margin: 0
+      border-radius: 0
+      border-bottom-right-radius: 5px
+      //align-items: flex-start
+      //padding: 15px
+      //justify-content: flex-start
+      //border-bottom-right-radius: 70px
+      //background-color: rgba(245, 79, 54, 0.9)
     .menuLine
-      width: 15px
+      width: 20px
       height: 2px
       background-color: #FFFFFF
       margin: 2px 0

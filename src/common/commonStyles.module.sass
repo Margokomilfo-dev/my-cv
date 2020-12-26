@@ -1,13 +1,14 @@
 .blockName
   position: relative
-  padding: 130px 0
-  border: 2px solid deeppink
+  padding: 120px 0
   &:nth-child(odd)
     background-color: #f0f2f7
   @media screen and (max-width: 700px)
     padding: 100px 0
+  @media screen and (max-width: 500px)
+    padding: 70px 0
   @media screen and (max-width: 420px)
-    padding: 90px 0
+    padding: 60px 0
 
 .container
   width: 80%
@@ -26,7 +27,6 @@
   display: flex
   align-items: center
   flex-direction: column
-  border: 1px solid blue
   text-align: justify
   & h2
     font-size: 60px
@@ -60,3 +60,24 @@
   background-color: #f54f36
   @media screen and (max-width: 700px)
     margin: 30px auto
+
+.button
+  background: #f54f36
+  border-radius: 5px
+  padding: 15px 25px
+  color: #ffffff
+  display: inline-block
+  text-align: center
+  text-transform: uppercase
+  width: 80%
+  border: none
+  cursor: pointer
+  font-size: 16px
+  font-weight: bold
+  &:active, &:focus
+    outline: none
+  &:hover
+    background: #d14734 linear-gradient(to bottom, #dd4c38 5%, #f54f36 100%)
+  &:active
+    position: relative
+    top: 1px

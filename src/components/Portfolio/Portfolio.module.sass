@@ -25,7 +25,7 @@
 			cursor: pointer
 			background-color: #f2f2f2
 			border: 1px solid lightgrey
-			border-radius: 3px
+			border-radius: 5px
 			color: #6f6f6f
 			font-size: 12px
 			font-weight: 400
@@ -37,6 +37,9 @@
 				margin: 5px 0
 			&.active
 				background-color: #F54F36
+				color: white
+			&:hover
+				background: #d14734 linear-gradient(to bottom, #dd4c38 5%, #f54f36 100%)
 				color: white
 //WorkBlock
 .portfolioContainer
@@ -69,6 +72,8 @@
 		@media screen and (max-width: 565px)
 			width: 90%
 			height: 250px
+		&:hover
+			background-size: contain
 		.curtain
 			position: absolute
 			content: ''

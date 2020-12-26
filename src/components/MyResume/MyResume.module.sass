@@ -1,31 +1,40 @@
 .resume
 	position: relative
+	@media screen and (max-width: 500px)
+		padding-bottom: 40px
 
 	&:before
 		position: absolute
 		content: ''
 		width: 2px
 		height: 59px
-		background-color: yellow
 
 .timeLine
 	position: relative
-
+	//.categoryWrapper:nth-child(2n)
+	//	padding: 50px 0
 	.categoryEndIcon
 		position: absolute
-		width: 30px
-		height: 30px
-		border-radius: 30px
-		background-color: grey
-		bottom: 0
-		left: calc(50% - 14px)
+		width: 40px
+		height: 40px
+		font-size: 18px
+		border-radius: 50%
+		bottom: -40px
+		left: calc(50% - 20px)
 		z-index: 1
-		@media screen and (max-width: 700px)
-			display: none
+		background-color: #cbcfdb
+		color: #5f7183
+		display: flex
+		justify-content: center
+		align-items: center
+		//@media screen and (max-width: 700px)
+		//	display: none
 
 .category
 	text-align: center
 	position: relative
+	@media screen and (max-width: 700px)
+		margin-bottom: 50px
 
 	& span
 		font-size: 36px
@@ -48,17 +57,6 @@
 		@media screen and (max-width: 400px)
 			font-size: 25px
 
-		.categoryIcon
-			position: absolute
-			width: 30px
-			height: 30px
-			margin: 20px auto
-			border-radius: 30px
-			background-color: red
-			left: calc(50% - 14px)
-			z-index: 1
-			@media screen and (max-width: 700px)
-				display: none
 
 .contentBlocks
 	position: relative
@@ -67,7 +65,6 @@
 	align-items: center
 	width: 90%
 	margin: 0 auto
-	border: 1px solid red
 	@media screen and (max-width: 1025px)
 		width: 100%
 	@media screen and (max-width: 700px)
@@ -81,4 +78,24 @@
 		background-color: #dbdde5
 		@media screen and (max-width: 700px)
 			display: none
-
+	.folder
+		position: absolute
+		top: 20px
+		width: 40px
+		height: 40px
+		text-align: center
+		margin: -15px auto
+		border-radius: 50%
+		color: white
+		z-index: 7
+		display: flex
+		justify-content: center
+		align-items: center
+		@media screen and (max-width: 700px)
+			top: -60px
+	.expFolder
+		background-color: #e74b3b
+	.eduFolder
+		background-color: #1abb9b
+	.courcesFolder
+		background-color: #9D6FC8

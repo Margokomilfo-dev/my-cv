@@ -1,85 +1,75 @@
-import React from "react";
-import s from "./Block.module.sass";
-
-type EducationBlockPropsType = {
-    companyName: string
-    specialization: string
-    faculty: string
-    from: number
-    to: string
-    description: string
-}
-export const EducationBlock: React.FC<EducationBlockPropsType> = (props) => {
-    return (
-        <div className={`${s.block}`} data-aos="fade-in">
-            <div className={s.content}>
-                <div className={s.blockIcon}> </div>
-                <div className={s.blockArrow}> </div>
-                <div className={s.postTitle}>
-                    <h4>{props.companyName}</h4>
-                </div>
-                <div className={s.postSubtitle}>
-                    <span>{props.faculty}</span>
-                    <span className={s.dot}>{props.from} - {props.to}</span>
-                </div>
-                <div className={s.postContent}>
-                    <p>{props.specialization}</p>
-                </div>
-            </div>
-        </div>
-    )
-}
-
+import React from "react"
+import s from "./Block.module.sass"
+import {CourcesType, EducationType, ExperiencesType} from './MyResume'
 
 type ExperiencesBlockPropsType = {
-    position:string
-    companyName: string
-    from: number
-    to: string
-    description: string
+    exp: ExperiencesType
 }
 export const ExperiencesBlock: React.FC<ExperiencesBlockPropsType> = (props) => {
     return (
         <div className={`${s.block}`} data-aos="fade-in">
-            <div className={s.content}>
+            <div className={`${s.content} ${s.expBlocksColor}`}>
                 <div className={s.blockIcon}> </div>
                 <div className={s.blockArrow}> </div>
                 <div className={s.postTitle}>
-                    <h4>{props.position}</h4>
+                    <h4>{props.exp.position}</h4>
                 </div>
                 <div className={s.postSubtitle}>
-                    <span>{props.companyName}</span>
-                    <span className={s.dot}>{props.from} - {props.to}</span>
+                    company name: <span> {props.exp.companyName}</span> <br/>
+                    from: <span> {props.exp.from}</span> to: <span> {props.exp.to}</span>
                 </div>
                 <div className={s.postContent}>
-                    <p>{props.description}</p>
+                    <p>{props.exp.description}</p>
                 </div>
             </div>
         </div>
     )
 }
-type CourcesBlockPropsType = {
-    position:string
-    companyName: string
-    from: number
-    to: string
-    description: string
+
+type EducationBlockPropsType = {
+    edu: EducationType
 }
-export const CourcesBlock: React.FC<CourcesBlockPropsType> = (props) => {
+export const EducationBlock: React.FC<EducationBlockPropsType> = (props) => {
     return (
         <div className={`${s.block}`} data-aos="fade-in">
-            <div className={s.content}>
+            <div className={`${s.content} ${s.eduBlocksColor}`}>
                 <div className={s.blockIcon}> </div>
                 <div className={s.blockArrow}> </div>
                 <div className={s.postTitle}>
-                    <h4>{props.position}</h4>
+                    <h4>{props.edu.companyName} <span> (Belarus)</span></h4>
+
                 </div>
                 <div className={s.postSubtitle}>
-                    <span>{props.companyName}</span>
-                    <span className={s.dot}>{props.from} - {props.to}</span>
+                    faculty of: <span>{props.edu.faculty}</span><br/>
+                    from: <span>{props.edu.from}</span> to: <span>{props.edu.to}</span><br/>
+                    specialization: <span className={s.specialization}>{props.edu.specialization}</span>
+                </div>
+
+            </div>
+        </div>
+    )
+}
+
+
+type CoursesBlockPropsType = {
+    course: CourcesType
+}
+
+export const CoursesBlock: React.FC<CoursesBlockPropsType> = (props) => {
+    return (
+        <div className={`${s.block}`} data-aos="fade-in">
+            <div className={`${s.content} ${s.coursersBlocksColor}`}>
+                <div className={s.blockIcon}> </div>
+                <div className={s.blockArrow}> </div>
+                <div className={s.postTitle}>
+                    <h4>{props.course.position}</h4>
+                </div>
+                <div className={s.postSubtitle}>
+                    company name: <span>{props.course.companyName}</span><br/>
+                    from: <span>{props.course.from}</span> to: <span>{props.course.to}</span>
                 </div>
                 <div className={s.postContent}>
-                    <p>{props.description}</p>
+                    <p>{props.course.description}</p>
                 </div>
             </div>
         </div>

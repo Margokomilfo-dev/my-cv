@@ -1,6 +1,7 @@
 import React from 'react'
 import s from './PersonalDataLeftPart.module.sass'
 import {v1} from 'uuid'
+import styles from '../../../common/commonStyles.module.sass'
 
 type StateType = {
     commonInfo: Array<{ id: string, title: string, text: string }>
@@ -29,7 +30,7 @@ export const PersonalDataLeftPart: React.FC<PersonalDataLeftPartPropsType> = (pr
             </div>
             <div className={s.signatureBlock}>
                 <div className={s.signature} data-aos="fade-in">{state.name}</div>
-                <button className={s.button}>Download resume</button>
+                <button className={styles.button}>Download resume</button>
             </div>
 
         </div>

@@ -24,8 +24,8 @@ export const ContactMe: React.FC<ContactMePropsType> = (props) => {
                     <div className={s.textareaMessage}>
                         <textarea placeholder='message' name='message' rows={8}> </textarea>
                     </div>
-                    <div>
-                        <button type={"submit"} className={s.button}>Send Message</button>
+                    <div className={s.button}>
+                        <button type={"submit"} className={styles.button}>Send Message</button>
                     </div>
                 </div>
             </div>

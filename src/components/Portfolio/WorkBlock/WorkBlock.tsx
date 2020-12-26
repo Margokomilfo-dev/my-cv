@@ -8,7 +8,7 @@ type WorkBlockType = {
 export const WorkBlock: React.FC<WorkBlockType> = (props) => {
 
     return (
-        <div className={s.work} style={props.work.style}>
+        <div className={s.work} style={props.work.style} data-aos="zoom-in">
             <div className={s.curtain}>
                 <a href={props.work.href}>
                     <div className={s.details}>
