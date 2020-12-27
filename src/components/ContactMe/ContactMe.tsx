@@ -1,11 +1,25 @@
-import React from "react"
+import React, {ChangeEvent, DetailedHTMLProps, FormHTMLAttributes} from 'react'
 // import s from './ContactMe.module.sass'
 import s from './ContactMe.module.css'
 import styles from '../../common/commonStyles.module.sass'
+import emailjs from 'emailjs-com'
 
 type ContactMePropsType = {}
 
 export const ContactMe: React.FC<ContactMePropsType> = (props) => {
+    // @ts-ignore
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_eeq5hqk', 'template_7t0jgk9', e.target, 'user_DGeTRjJg48EA5O4osrVMJ')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
+        alert('done!! Have a nice time!')
+    }
     return (
         <div className={styles.blockName} data-aos="fade-in" id='contactme'>
             <div className={styles.container}>
@@ -14,7 +28,7 @@ export const ContactMe: React.FC<ContactMePropsType> = (props) => {
                     <span className={styles.border}> </span>
                 </div>
 
-                <div className={s.contactForm}>
+                <form className={s.contactForm} onSubmit={sendEmail}>
                     <div className={s.inputName}>
                         <input type="text" placeholder={'name'} name='name'/>
                     </div>
@@ -27,7 +41,7 @@ export const ContactMe: React.FC<ContactMePropsType> = (props) => {
                     <div className={s.button}>
                         <button type={"submit"} className={styles.button}>Send Message</button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     )

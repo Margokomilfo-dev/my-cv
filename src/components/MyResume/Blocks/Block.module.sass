@@ -1,144 +1,149 @@
 .block
-  width: 50%
-  position: relative
-  @media screen and (max-width: 700px)
-    width: 100%
-    border: 1px solid green
-    margin: 20px 0
-  @media screen and (max-width: 650px)
-    width: 100%
-    border: 1px solid green
-    margin: 10px 0
+	width: 50%
+	position: relative
+	@media screen and (max-width: 700px)
+		width: 100%
+		border: 1px solid green
+		margin: 20px 0
+	@media screen and (max-width: 650px)
+		width: 100%
+		border: 1px solid green
+		margin: 10px 0
 
-  &:nth-child(2n-1)
-    text-align: right
-    left: calc(-25% + 2px)
-    margin-top: -50px
-    @media screen and (max-width: 1185px)
-      left: calc(-25% + 1px)
-    @media screen and (max-width: 700px)
-      text-align: center
-      left: 0
-      margin-top: 0
-      border: none
+	&:nth-child(2n-1)
+		text-align: right
+		left: calc(-25% + 2px)
+		margin-top: -50px
+		@media screen and (max-width: 1185px)
+			left: calc(-25% + 1px)
+		@media screen and (max-width: 700px)
+			text-align: center
+			left: 0
+			margin-top: 0
+			border: none
 
-    & .blockIcon
-      position: absolute
-      right: -7px
+		& .blockIcon
+			position: absolute
+			right: -7px
 
-    & .blockArrow
-      position: absolute
-      right: 16px
+		& .blockArrow
+			position: absolute
+			right: 16px
 
-  &:nth-child(2n)
-    left: 25%
-    margin-top: -100px
-    @media screen and (max-width: 700px)
-      text-align: center
-      left: 0
-      margin-top: 0
-      border: none
+	&:nth-child(2n)
+		left: 25%
+		margin-top: -100px
+		@media screen and (max-width: 700px)
+			text-align: center
+			left: 0
+			margin-top: 0
+			border: none
 
-    & .blockIcon
-      position: absolute
-      left: -7px
+		& .blockIcon
+			position: absolute
+			left: -7px
 
-    & .blockArrow
-      position: absolute
-      left: 16px
+		& .blockArrow
+			position: absolute
+			left: 16px
 
-  &:first-child
-    margin-top: 0
-    padding: 60px 0 0 0
-    @media screen and (max-width: 700px)
-      padding: 0
-  .content
-    margin: 20px
-    padding: 10px 15px
-    border-radius: 10px
-    @media screen and (max-width: 700px)
-      margin: 0
-      padding: 10px
-      border: 1px solid #bbbbbb
-    &.expBlocksColor
-      @media screen and (max-width: 700px)
-        border: 1px solid #e74b3b
-    &.coursersBlocksColor
-      @media screen and (max-width: 700px)
-        border: 1px solid #9D6FC8
-    &.eduBlocksColor
-      @media screen and (max-width: 700px)
-        border: 1px solid #1abb9b
+	&:first-child
+		margin-top: 0
+		padding: 60px 0 0 0
+		@media screen and (max-width: 700px)
+			padding: 0
 
-    &:hover
-      background-color: white
+	.content
+		margin: 20px
+		padding: 10px 15px
+		border-radius: 10px
+		@media screen and (max-width: 700px)
+			margin: 0
+			padding: 10px
+			border: 1px solid #bbbbbb
 
-      & .blockIcon
-        background-color: #F54F36
+		&.expBlocksColor
+			@media screen and (max-width: 700px)
+				border: 1px solid #e74b3b
 
-      & .blockArrow
-        background-color: white
+		&.coursersBlocksColor
+			@media screen and (max-width: 700px)
+				border: 1px solid #9D6FC8
 
-    .blockIcon
-      width: 16px
-      height: 16px
-      border-radius: 15px
-      background-color: #dbdde5
-      z-index: 1
-      @media screen and (max-width: 700px)
-        display: none
+		&.eduBlocksColor
+			@media screen and (max-width: 700px)
+				border: 1px solid #1abb9b
 
-    .blockArrow
-      width: 16px
-      height: 16px
-      z-index: 1
-      background-color: #F0F2F7
-      transform: rotate(45deg)
-      @media screen and (max-width: 700px)
-        display: none
+		&:hover
+			background-color: white
 
-    .postTitle h4
-      color: #2c3e50
-      font-size: 19px
-      font-weight: bold
-      padding-bottom: 5px
-      line-height: 1em
-      text-transform: uppercase
-      @media screen and (max-width: 768px)
-        font-size: 15px
-      & span
-        font-size: 17px
-        text-transform: none
-        font-weight: 400
-        @media screen and (max-width: 768px)
-          font-size: 13px
+			& .blockIcon
+				background-color: #F54F36
 
-    .postSubtitle
-      color: #2c3e50
-      font-size: 14px
-      font-weight: 700
-      padding-bottom: 10px
-      @media screen and (max-width: 975px)
-        font-size: 13px
-      @media screen and (max-width: 768px)
-        font-size: 12px
-      & span
-        font-size: 17px
-        font-weight: 400
-        @media screen and (max-width: 975px)
-          font-size: 15px
-        @media screen and (max-width: 768px)
-          font-size: 13px
-      .specialization
-        color: #1abb9b
-        font-weight: 600
-        //@media screen and (max-width: 768px)
-        //  font-size: 13px
+			& .blockArrow
+				background-color: white
 
-    .postContent
-      color: #7d878f
-      font-size: 15px
-      @media screen and (max-width: 975px)
-        font-size: 14px
-      @media screen and (max-width: 768px)
-          font-size: 13px
+		.blockIcon
+			width: 16px
+			height: 16px
+			border-radius: 15px
+			background-color: #dbdde5
+			z-index: 1
+			@media screen and (max-width: 700px)
+				display: none
+
+		.blockArrow
+			width: 16px
+			height: 16px
+			z-index: 1
+			background-color: #F0F2F7
+			transform: rotate(45deg)
+			@media screen and (max-width: 700px)
+				display: none
+
+		.postTitle h4
+			color: #2c3e50
+			font-size: 19px
+			font-weight: bold
+			padding-bottom: 5px
+			line-height: 1em
+			text-transform: uppercase
+			@media screen and (max-width: 768px)
+				font-size: 15px
+
+			& span
+				font-size: 17px
+				text-transform: none
+				font-weight: 400
+				@media screen and (max-width: 768px)
+					font-size: 13px
+
+		.postSubtitle
+			color: #2c3e50
+			font-size: 14px
+			font-weight: 700
+			padding-bottom: 10px
+			@media screen and (max-width: 975px)
+				font-size: 13px
+			@media screen and (max-width: 768px)
+				font-size: 12px
+
+			& span
+				font-size: 17px
+				font-weight: 400
+				@media screen and (max-width: 975px)
+					font-size: 15px
+				@media screen and (max-width: 768px)
+					font-size: 13px
+
+			.specialization
+				color: #1abb9b
+				font-weight: 600
+
+		.postContent
+			color: #7d878f
+			font-size: 15px
+			@media screen and (max-width: 975px)
+				font-size: 14px
+			@media screen and (max-width: 768px)
+				font-size: 13px
