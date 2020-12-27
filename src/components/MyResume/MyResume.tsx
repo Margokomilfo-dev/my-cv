@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../common.css'
 import s from './MyResume.module.sass'
 import {CoursesBlock} from './Blocks/CoursesBlock'
 import styles from '../../common/commonStyles.module.sass'
@@ -11,7 +10,6 @@ import {faInfo} from '@fortawesome/free-solid-svg-icons'
 import {faBookmark} from '@fortawesome/free-solid-svg-icons'
 import {ExperiencesBlock} from './Blocks/ExperiencesBlock'
 import {EducationBlock} from './Blocks/EducationBlock'
-
 
 export type ExperiencesType = { id: string, position: string, companyName: string, from: number | string, to: number | string, description: string }
 export type EducationType = { id: string, companyName: string, specialization: string, faculty: string, from: number | string, to: number | string, description: string }

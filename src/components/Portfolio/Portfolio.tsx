@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import s from './Portfolio.module.sass'
-import '../../common.css'
 import styles from '../../common/commonStyles.module.sass'
 import {v1} from 'uuid'
 import bg1 from '../../assets/img/1.jpg'
