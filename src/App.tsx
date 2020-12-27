@@ -9,6 +9,7 @@ import {MyResume} from './components/MyResume/MyResume'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import {Insertion} from './components/Insertion/Insertion'
+import {Footer} from './components/Footer/Footer'
 
 AOS.init()
 
@@ -23,6 +24,7 @@ function App() {
             <Skills/>
             <Insertion title={'I Open To Work'}/>
             <ContactMe/>
+            <Footer/>
         </div>
     )
 }
