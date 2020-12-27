@@ -12,7 +12,7 @@ export const ExperiencesBlock: React.FC<ExperiencesBlockPropsType> = (props) => 
                 <div className={s.blockIcon}> </div>
                 <div className={s.blockArrow}> </div>
                 <div className={s.postTitle}>
-                    <h4>{props.exp.position}</h4>
+                    <h4 className={s.expPosition}>{props.exp.position}</h4>
                 </div>
                 <div className={s.postSubtitle}>
                     company name: <span> {props.exp.companyName}</span> <br/>

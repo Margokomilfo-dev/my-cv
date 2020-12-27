@@ -1,4 +1,4 @@
-import React, {ChangeEvent, DetailedHTMLProps, FormHTMLAttributes} from 'react'
+import React from 'react'
 // import s from './ContactMe.module.sass'
 import s from './ContactMe.module.css'
 import styles from '../../common/commonStyles.module.sass'

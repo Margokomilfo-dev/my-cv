@@ -14,7 +14,7 @@ export const CoursesBlock: React.FC<CoursesBlockPropsType> = (props) => {
                 <div className={s.blockIcon}> </div>
                 <div className={s.blockArrow}> </div>
                 <div className={s.postTitle}>
-                    <h4>{props.course.position}</h4>
+                    <h4 className={s.coursesName}>{props.course.position}</h4>
                 </div>
                 <div className={s.postSubtitle}>
                     company name: <span>{props.course.companyName}</span><br/>

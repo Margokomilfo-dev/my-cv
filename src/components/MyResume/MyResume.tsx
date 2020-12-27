@@ -32,6 +32,14 @@ const state: stateType = {
         },
         {
             id: v1(),
+            position: 'Director',
+            companyName: 'Online store "Krasotka-pro" (Belarus)',
+            from: 2015,
+            to: '12.2018',
+            description: 'internet sales, marketing, online support, financial management, problem solving '
+        },
+        {
+            id: v1(),
             position: 'Teacher of programing languages',
             companyName: 'Polotsk State University (Belarus)',
             from: 2012,
@@ -112,7 +120,8 @@ const state: stateType = {
             companyName: 'Online-course',
             from: '2019',
             to: '-',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto.'
+            description: 'JavaScript in React, jsx, Flux, class Components, Object Life Cycles, connect, building' +
+                ' forms in React - formik library.'
         },
         {
             id: v1(),
@@ -120,7 +129,7 @@ const state: stateType = {
             companyName: 'Online-course',
             from: '2016',
             to: '-',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, architecto debitis error iste natus quis ut.'
+            description: 'HTML, css, basic jQuery, basic JavaScript'
         },
         {
             id: v1(),
@@ -136,7 +145,9 @@ const state: stateType = {
             companyName: 'Company Name',
             from: '09.2012',
             to: '11.2012',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicingste natus quis ut voluptatem! Iusto, porro, quia.'
+            description: 'What is education and what types of it we have today? Learn some key point about' +
+                ' development of offline and online education, make a good pedagogical dispositive, how to start your' +
+                ' teaching project, advice and tips for beginning teaching project and improving teaching skills'
         },
         {
             id: v1(),
@@ -144,7 +155,9 @@ const state: stateType = {
             companyName: 'Polotsk State University',
             from: '01.2010',
             to: '03.2010',
-            description: 'Lorem ipsum dolor sit amet, conto debitis error iste natus quis ut voluptatem! Iusto, porro, quia.'
+            description: 'Create business card and unique color palettes, design clean and professional business' +
+                ' cards,organizing a brochure layout by learning. Learned how to manage pages, also combining' +
+                ' vector shapes, to use them in logos and graphics'
         },
         {
             id: v1(),
@@ -152,7 +165,9 @@ const state: stateType = {
             companyName: 'Polotsk State University',
             from: '08.2009',
             to: '10.2009',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisis ut voluptatem! Iusto, porro, quia.'
+            description: 'Business cards, design icons, illustrations and characters, improve and repair' +
+                ' photos, remove people or objects from photos and cut away a person from their background, ' +
+                'use creative effects to design stunning text styles, layers, master selections, working with the layers panel.'
         },
     ]
 }
