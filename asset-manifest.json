@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-cv/static/css/main.350e4449.chunk.css",
-    "main.js": "/my-cv/static/js/main.18c83a3b.chunk.js",
-    "main.js.map": "/my-cv/static/js/main.18c83a3b.chunk.js.map",
-    "runtime-main.js": "/my-cv/static/js/runtime-main.2877b1bb.js",
-    "runtime-main.js.map": "/my-cv/static/js/runtime-main.2877b1bb.js.map",
-    "static/css/2.924dc2c2.chunk.css": "/my-cv/static/css/2.924dc2c2.chunk.css",
-    "static/js/2.6ded8885.chunk.js": "/my-cv/static/js/2.6ded8885.chunk.js",
-    "static/js/2.6ded8885.chunk.js.map": "/my-cv/static/js/2.6ded8885.chunk.js.map",
+    "main.css": "/my-cv/static/css/main.7355bc7c.chunk.css",
+    "main.js": "/my-cv/static/js/main.3350d874.chunk.js",
+    "main.js.map": "/my-cv/static/js/main.3350d874.chunk.js.map",
+    "runtime-main.js": "/my-cv/static/js/runtime-main.5aa8c950.js",
+    "runtime-main.js.map": "/my-cv/static/js/runtime-main.5aa8c950.js.map",
+    "static/css/2.4e27376e.chunk.css": "/my-cv/static/css/2.4e27376e.chunk.css",
+    "static/js/2.37bcbe32.chunk.js": "/my-cv/static/js/2.37bcbe32.chunk.js",
+    "static/js/2.37bcbe32.chunk.js.map": "/my-cv/static/js/2.37bcbe32.chunk.js.map",
     "index.html": "/my-cv/index.html",
-    "static/css/2.924dc2c2.chunk.css.map": "/my-cv/static/css/2.924dc2c2.chunk.css.map",
-    "static/css/main.350e4449.chunk.css.map": "/my-cv/static/css/main.350e4449.chunk.css.map",
-    "static/js/2.6ded8885.chunk.js.LICENSE.txt": "/my-cv/static/js/2.6ded8885.chunk.js.LICENSE.txt",
+    "static/css/2.4e27376e.chunk.css.map": "/my-cv/static/css/2.4e27376e.chunk.css.map",
+    "static/css/main.7355bc7c.chunk.css.map": "/my-cv/static/css/main.7355bc7c.chunk.css.map",
+    "static/js/2.37bcbe32.chunk.js.LICENSE.txt": "/my-cv/static/js/2.37bcbe32.chunk.js.LICENSE.txt",
     "static/media/1.15d29d37.jpg": "/my-cv/static/media/1.15d29d37.jpg",
     "static/media/2.95ac7301.jpg": "/my-cv/static/media/2.95ac7301.jpg",
     "static/media/3.a67e55d7.jpg": "/my-cv/static/media/3.a67e55d7.jpg",
@@ -34,10 +34,10 @@
     "static/media/Insertion.module.sass": "/my-cv/static/media/workplaceBgr.80f5eca5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2877b1bb.js",
-    "static/css/2.924dc2c2.chunk.css",
-    "static/js/2.6ded8885.chunk.js",
-    "static/css/main.350e4449.chunk.css",
-    "static/js/main.18c83a3b.chunk.js"
+    "static/js/runtime-main.5aa8c950.js",
+    "static/css/2.4e27376e.chunk.css",
+    "static/js/2.37bcbe32.chunk.js",
+    "static/css/main.7355bc7c.chunk.css",
+    "static/js/main.3350d874.chunk.js"
   ]
 }
