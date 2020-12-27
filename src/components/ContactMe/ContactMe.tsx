@@ -1,6 +1,6 @@
 import React from 'react'
 // import s from './ContactMe.module.sass'
-import s from './ContactMe.module.css'
+import s from './ContactMe.module.sass'
 import styles from '../../common/commonStyles.module.sass'
 import emailjs from 'emailjs-com'
 
@@ -30,13 +30,23 @@ export const ContactMe: React.FC<ContactMePropsType> = (props) => {
 
                 <form className={s.contactForm} onSubmit={sendEmail}>
                     <div className={s.inputName}>
-                        <input type="text" placeholder={'name'} name='name'/>
+                        <label>
+                            <span>Your name:</span>
+                            <input type="text" placeholder={'name'} name='name'/>
+                        </label>
                     </div>
                     <div className={s.inputEmail}>
-                        <input type="text" placeholder={'email'} name='email' />
+                        <label>
+                            <span>Your email:</span>
+                            <input type="text" placeholder={'email@gmail.com'} name='email' />
+                        </label>
+
                     </div>
                     <div className={s.textareaMessage}>
-                        <textarea placeholder='message' name='message' rows={8}> </textarea>
+                        <label>
+                            <span>Your message:</span>
+                            <textarea placeholder="Your message..." name='message'></textarea>
+                        </label>
                     </div>
                     <div className={s.button}>
                         <button type={"submit"} className={styles.button}>Send Message</button>
