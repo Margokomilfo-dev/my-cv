@@ -10,7 +10,7 @@ import bg5 from '../../assets/img/5.jpg'
 import bg6 from '../../assets/img/6.jpg'
 import {WorkBlock} from './WorkBlock/WorkBlock'
 
-export type WorkType = { id: string, style: any, title: string, description: string, part:FilterType , href: string}
+export type WorkType = { id: string, style: any, title: string, description: string, part:FilterType , gitHub: string, demo: string}
 type FilterType = 'all' | 'js' | 'html-css' | 'html-css-js' | 'react-redux' | 'react' | 'small-tasks'
 
 const social = {backgroundImage: `url(${bg1})`}
@@ -20,19 +20,19 @@ const project1 = {backgroundImage: `url(${bg4})`}
 const project2 = {backgroundImage: `url(${bg5})`}
 const project3 = {backgroundImage: `url(${bg6})`}
 
-const initialState = [
-        {id: v1(), style: social, title: 'Social Network JavaScript', description: 'react-redux', part: 'react-redux', href: '#'},
-        {id: v1(), style: todo, title: 'Todolist', description: 'react-redux', part: 'react-redux', href: '#'},
-        {id: v1(), style: project, title: 'Counter', description: 'react-redux', part: 'react-redux', href: '#'},
-        {id: v1(), style: project1, title: 'CRM', description: 'js', part: 'js', href: '#'},
-        {id: v1(), style: social, title: 'Lending', description: 'html-css-js', part: 'html-css-js', href: '#'},
-        {id: v1(), style: project2, title: 'Lending', description: 'html-css-js', part: 'html-css-js', href: '#'},
-        {id: v1(), style: project, title: 'Counter', description: 'react-redux', part: 'react-redux', href: '#'},
-        {id: v1(), style: project3, title: 'CRM', description: 'react', part: 'react', href: '#'},
-        {id: v1(), style: project, title: 'Lending', description: 'small-tasks', part: 'small-tasks', href: '#'},
-        {id: v1(), style: todo, title: 'Lending', description: 'js', part: 'js', href: '#'},
-        {id: v1(), style: project1, title: 'Counter', description: 'html-css', part: 'html-css', href: '#'},
-    ] as Array<WorkType>
+const initialState: Array<WorkType> = [
+        {id: v1(), style: social, title: 'Social Network JavaScript', description: 'STACK: react/redux', part: 'react-redux', gitHub: 'https://github.com/Margokomilfo-dev/TriMsocial-REACT', demo: 'https://margokomilfo-dev.github.io/TriMsocial-REACT/'},
+        {id: v1(), style: todo, title: 'Todolist', description: 'react-redux', part: 'react-redux',  gitHub: '#', demo: '#'},
+        {id: v1(), style: project, title: 'Counter', description: 'react-redux', part: 'react-redux', gitHub: '#', demo: '#'},
+        {id: v1(), style: project1, title: 'CRM', description: 'js', part: 'js', gitHub: '#', demo: '#'},
+        {id: v1(), style: social, title: 'Lending', description: 'html-css-js', part: 'html-css-js', gitHub: '#', demo: '#'},
+        {id: v1(), style: project2, title: 'Lending', description: 'html-css-js', part: 'html-css-js', gitHub: '#', demo: '#'},
+        {id: v1(), style: project, title: 'Counter', description: 'react-redux', part: 'react-redux', gitHub: '#', demo: '#'},
+        {id: v1(), style: project3, title: 'CRM', description: 'react', part: 'react', gitHub: '#', demo: '#'},
+        {id: v1(), style: project, title: 'Lending', description: 'small-tasks', part: 'small-tasks', gitHub: '#', demo: '#'},
+        {id: v1(), style: todo, title: 'Lending', description: 'js', part: 'js', gitHub: '#', demo: '#'},
+        {id: v1(), style: project1, title: 'Counter', description: 'html-css', part: 'html-css', gitHub: '#', demo: '#'},
+    ]
 
 
 export const Portfolio: React.FC = () => {
