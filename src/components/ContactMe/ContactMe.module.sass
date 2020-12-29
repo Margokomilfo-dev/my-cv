@@ -1,32 +1,57 @@
-.contactForm
+.commonInf
 	display: flex
-	flex-direction: column
-	width: 60%
-	margin: 20px auto
-	color: #2c3d4f
-	@media screen and (max-width: 700px)
-		width: 90%
-	& label span
-		font-weight: 600
-	& input, & textarea
-		font-size: 14px
-		height: 64px
-		padding: 26px 3%
-		background: none repeat scroll 0 0 #f2f2f2
-		border-radius: 3px
-		margin-bottom: 20px
+	width: 100%
+	h2
+		padding: 0 0 20px  0
+	@media screen and (max-width: 1025px)
 		width: 100%
-		border: 0
+	@media screen and (max-width: 950px)
+		flex-direction: column
+	.left
+		width: 40%
+		display: flex
+		flex-direction: column
+		align-items: center
+		@media screen and (max-width: 950px)
+			width: 100%
+	.right
+		width: 60%
+		display: flex
+		flex-direction: column
+		align-items: center
+		@media screen and (max-width: 950px)
+			width: 100%
+		.contactForm
+			display: flex
+			flex-direction: column
+			width: 90%
+			margin: 20px auto
+			color: #2c3d4f
+			@media screen and (max-width: 950px)
+				width: 60%
+			@media screen and (max-width: 700px)
+				width: 90%
+			& label span
+				font-weight: 600
+			& input, & textarea
+				font-size: 14px
+				height: 64px
+				padding: 26px 3%
+				background: none repeat scroll 0 0 #f2f2f2
+				border-radius: 3px
+				margin-bottom: 20px
+				width: 100%
+				border: 0
 
-	& textarea
-		height: 200px
-		resize: none
-	font-weight: 400
+			& textarea
+				height: 200px
+				resize: none
+			font-weight: 400
 
-	& input::placeholder, & textarea::placeholder
-		color: #b5c2cf
-		opacity: 1
-		font-weight: 600
+			& input::placeholder, & textarea::placeholder
+				color: #b5c2cf
+				opacity: 1
+				font-weight: 600
 
-	.button
-		text-align: center
+			.button
+				text-align: center

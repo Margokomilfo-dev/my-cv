@@ -2,7 +2,7 @@ import React from 'react'
 import s from './AboutMe.module.sass'
 import {PersonalDataLeftPart} from './PersonalDataLeftPart/PersonalDataLeftPart'
 import {HobbiesRightPart} from './HobbiesRightPart/HobbiesRightPart'
-import { AboutMeCommon } from './AboutMeCommon/AboutMeCommon'
+import {AboutMeCommon} from './AboutMeCommon/AboutMeCommon'
 import styles from '../../common/commonStyles.module.sass'
 
 

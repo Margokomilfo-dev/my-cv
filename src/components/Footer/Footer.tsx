@@ -8,14 +8,12 @@ import {SocialNetworks} from '../Header/SocialNetworks/SocialNetworks'
 
 export const Footer: React.FC = () => {
     return (
-
             <div className={s.footer}>
                 <div className={styles.container}>
                 <p> <FontAwesomeIcon icon={faCopyright}/>2020 <span>Marharyta Pryshchapionak</span> <br/>
                 All Rights Reserved.</p>
                     <SocialNetworks />
             </div>
-
         </div>
     )
 }
