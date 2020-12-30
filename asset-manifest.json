@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-cv/static/css/main.f0c2001d.chunk.css",
-    "main.js": "/my-cv/static/js/main.c9efeed1.chunk.js",
-    "main.js.map": "/my-cv/static/js/main.c9efeed1.chunk.js.map",
+    "main.js": "/my-cv/static/js/main.31b51e4b.chunk.js",
+    "main.js.map": "/my-cv/static/js/main.31b51e4b.chunk.js.map",
     "runtime-main.js": "/my-cv/static/js/runtime-main.2877b1bb.js",
     "runtime-main.js.map": "/my-cv/static/js/runtime-main.2877b1bb.js.map",
     "static/css/2.30fbed10.chunk.css": "/my-cv/static/css/2.30fbed10.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/coffee.0f15e243.png": "/my-cv/static/media/coffee.0f15e243.png",
     "static/media/counter2.baec8ef2.png": "/my-cv/static/media/counter2.baec8ef2.png",
     "static/media/countertuesday.97de2c4f.png": "/my-cv/static/media/countertuesday.97de2c4f.png",
+    "static/media/currancy.6ff6236c.png": "/my-cv/static/media/currancy.6ff6236c.png",
     "static/media/dumbbell.db43313d.png": "/my-cv/static/media/dumbbell.db43313d.png",
     "static/media/global.9e95f8f7.png": "/my-cv/static/media/global.9e95f8f7.png",
     "static/media/house.20a89cae.png": "/my-cv/static/media/house.20a89cae.png",
@@ -32,10 +33,15 @@
     "static/media/job.6d596b91.png": "/my-cv/static/media/job.6d596b91.png",
     "static/media/Avatar.module.sass": "/my-cv/static/media/me.751d4ee8.jpg",
     "static/media/money.3b716515.png": "/my-cv/static/media/money.3b716515.png",
+    "static/media/moneyKeeper.7d5dfcc2.png": "/my-cv/static/media/moneyKeeper.7d5dfcc2.png",
     "static/media/Header.module.sass": "/my-cv/static/media/mp11.62a40187.jpg",
     "static/media/overflowing.f4fd93b6.png": "/my-cv/static/media/overflowing.f4fd93b6.png",
     "static/media/pawprint.d89d14d4.png": "/my-cv/static/media/pawprint.d89d14d4.png",
+    "static/media/popup.2c817ab2.png": "/my-cv/static/media/popup.2c817ab2.png",
     "static/media/puls.c2560065.png": "/my-cv/static/media/puls.c2560065.png",
+    "static/media/tabs.20670c6c.png": "/my-cv/static/media/tabs.20670c6c.png",
+    "static/media/timer.630a7fc6.png": "/my-cv/static/media/timer.630a7fc6.png",
+    "static/media/timer2.57ca6c4f.jpg": "/my-cv/static/media/timer2.57ca6c4f.jpg",
     "static/media/todo.a1a9b10c.png": "/my-cv/static/media/todo.a1a9b10c.png",
     "static/media/traffic.6d54bbac.png": "/my-cv/static/media/traffic.6d54bbac.png",
     "static/media/uber.b7fd374b.png": "/my-cv/static/media/uber.b7fd374b.png",
@@ -49,6 +55,6 @@
     "static/css/2.30fbed10.chunk.css",
     "static/js/2.902793fa.chunk.js",
     "static/css/main.f0c2001d.chunk.css",
-    "static/js/main.c9efeed1.chunk.js"
+    "static/js/main.31b51e4b.chunk.js"
   ]
 }
