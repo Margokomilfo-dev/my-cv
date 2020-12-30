@@ -7,27 +7,50 @@
 }
 .skill {
     width: 300px;
-    border: 1px solid #f84917;
+    border: 1px solid lightgrey;
     margin: 0 20px 20px 20px;
-    padding: 10px;
+    padding: 10px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.skillImg {
-    width: 70px;
-    height: 70px;
-    border: 1px solid green;
-    transform: rotate(45deg);
-    margin: 20px
-}
 .skillContent h3{
     color: #2c3e50;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     margin: 10px 0;
 }
+.lineWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    height: 15px;
+    width: 200px;
+    background-color: #EFF1F7;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    position: relative;
+}
+.percentLine {
+    height: 15px;
+    background-color: #f84917;
+    border-radius: 20px;
+    border: 1px solid #f84917;
+    position: absolute;
+    top: -1px;
+
+}
+/*.skillImg {*/
+/*    width: 70px;*/
+/*    height: 70px;*/
+/*    border: 1px solid green;*/
+/*    transform: rotate(45deg);*/
+/*    margin: 20px*/
+/*}*/
+
 @media screen and (max-width: 1025px){
     .skillsContainer {
         width: 100%;

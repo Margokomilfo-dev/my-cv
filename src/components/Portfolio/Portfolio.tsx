@@ -13,6 +13,13 @@ import wordpressCss from '../../assets/img/portfolio/wordpress.png'
 import uberLending from '../../assets/img/portfolio/uber.png'
 import pulsik from '../../assets/img/portfolio/puls.png'
 import globalopt from '../../assets/img/portfolio/global.png'
+import currencyConv from '../../assets/img/portfolio/currancy.png'
+import calc from '../../assets/img/portfolio/calc.png'
+import moneyKeeper from '../../assets/img/portfolio/moneyKeeper.png'
+import tabulation from '../../assets/img/portfolio/tabs.png'
+import timer1 from '../../assets/img/portfolio/timer.png'
+import timer2 from '../../assets/img/portfolio/timer2.jpg'
+import popup_ from '../../assets/img/portfolio/popup.png'
 import bg1 from '../../assets/img/1.jpg'
 import bg2 from '../../assets/img/2.jpg'
 import bg3 from '../../assets/img/5.jpg'
@@ -33,6 +40,13 @@ const wordpress = {backgroundImage: `url(${wordpressCss})`}
 const uber = {backgroundImage: `url(${uberLending})`}
 const puls = {backgroundImage: `url(${pulsik})`}
 const global = {backgroundImage: `url(${globalopt})`}
+const currency = {backgroundImage: `url(${currencyConv})`}
+const calculator = {backgroundImage: `url(${calc})`}
+const keeper = {backgroundImage: `url(${moneyKeeper})`}
+const tabs = {backgroundImage: `url(${tabulation})`}
+const timer = {backgroundImage: `url(${timer1})`}
+const timer_ = {backgroundImage: `url(${timer2})`}
+const popup = {backgroundImage: `url(${popup_})`}
 const project1 = {backgroundImage: `url(${bg1})`}
 const project2 = {backgroundImage: `url(${bg2})`}
 const project3 = {backgroundImage: `url(${bg3})`}
@@ -56,7 +70,7 @@ const initialState: Array<WorkType> = [
         gitHubLink: 'https://github.com/Margokomilfo-dev/GlobalOpt-HTML-SASS-JS',
         gitHub: 'margokomilfo-dev/GlobalOpt-HTML-SASS-JS/',
         demoLink: 'https://margokomilfo-dev.github.io/GlobalOpt-HTML-SASS-JS/',
-        demo: 'margokomilfo-dev.github.io/GlobalOpt-HTML-SASS-JS/',
+        demo: 'margokomilfo-dev.github.io/GlobalOpt/',
     },
     {
         id: v1(),
@@ -67,7 +81,7 @@ const initialState: Array<WorkType> = [
         gitHubLink: 'https://github.com/Margokomilfo-dev/exam-tuesday',
         gitHub: 'margokomilfo-dev/exam-tuesday/',
         demoLink: 'https://margokomilfo-dev.github.io/exam-tuesday/',
-        demo: 'margokomilfo-dev.github.io/exam-tuesday/',
+        demo: 'margokomilfo-dev.github.io/counter/',
     },
     {
         id: v1(),
@@ -78,7 +92,7 @@ const initialState: Array<WorkType> = [
         gitHubLink: 'https://github.com/Margokomilfo-dev/WordPress-HTML-CSS',
         gitHub: 'margokomilfo-dev/WordPress-HTML-CSS/',
         demoLink: 'https://margokomilfo-dev.github.io/WordPress-HTML-CSS/',
-        demo: 'margokomilfo-dev.github.io/WordPress-HTML-CSS/',
+        demo: 'margokomilfo-dev.github.io/WordPress/',
     },
     {
         id: v1(),
@@ -89,7 +103,7 @@ const initialState: Array<WorkType> = [
         gitHubLink: 'https://github.com/Margokomilfo-dev/tasks_from_Ignat',
         gitHub: 'margokomilfo-dev/tasks_from_Ignat/',
         demoLink: 'http://Margokomilfo-dev.github.io/tasks_from_Ignat',
-        demo: 'margokomilfo-dev.github.io/tasks_from_Ignat/',
+        demo: 'margokomilfo-dev.github.io/tasks/',
     },
     {
         id: v1(),
@@ -111,7 +125,7 @@ const initialState: Array<WorkType> = [
         gitHubLink: 'https://github.com/Margokomilfo-dev/exam-tuesday-next',
         gitHub: 'margokomilfo-dev/exam-tuesday-next/',
         demoLink: 'https://margokomilfo-dev.github.io/exam-tuesday-next/',
-        demo: 'margokomilfo-dev.github.io/exam-tuesday-next/',
+        demo: 'margokomilfo-dev.github.io/counter2/',
     },
     {
         id: v1(),
@@ -122,7 +136,7 @@ const initialState: Array<WorkType> = [
         gitHubLink: 'https://github.com/Margokomilfo-dev/Uber-HTML-CSS',
         gitHub: 'margokomilfo-dev/Uber-HTML-CSS/',
         demoLink: 'https://margokomilfo-dev.github.io/Uber-HTML-CSS/',
-        demo: 'margokomilfo-dev.github.io/Uber-HTML-CSS/',
+        demo: 'margokomilfo-dev.github.io/Uber/',
     },
     {
         id: v1(),
@@ -134,18 +148,18 @@ const initialState: Array<WorkType> = [
         gitHubLink: 'https://github.com/Margokomilfo-dev/it-incubator-socialnetwork',
         gitHub: 'margokomilfo-dev/it-incubator-socialnetwork/',
         demoLink: 'https://margokomilfo-dev.github.io/it-incubator-socialnetwork/',
-        demo: 'margokomilfo-dev.github.io/it-incubator-socialnetwork/',
+        demo: 'margokomilfo-dev.github.io/socialnetwork/',
     },
     {
         id: v1(),
         style: puls,
         title: 'Puls',
-        description: 'JavaScript, HTML/CSS',
+        description: 'JavaScript, HTML/Sass',
         part: 'html-css-js',
         gitHubLink: 'https://github.com/Margokomilfo-dev/Puls-HTML-SASS-JS',
         gitHub: 'margokomilfo-dev/Puls-HTML-SASS-JS/',
         demoLink: 'https://margokomilfo-dev.github.io/Puls-HTML-SASS-JS/',
-        demo: 'margokomilfo-dev.github.io/Puls-HTML-SASS-JS/',
+        demo: 'margokomilfo-dev.github.io/Puls/',
     },
     {
         id: v1(), style: todo, title: 'Todolist', description: 'React, Redux, JavaScript, TDD (Jest, Snapshot' +
@@ -154,13 +168,56 @@ const initialState: Array<WorkType> = [
         gitHubLink: 'https://github.com/Margokomilfo-dev/it-incubator-todolist',
         gitHub: 'margokomilfo-dev/it-incubator-todolist/',
         demoLink: 'https://margokomilfo-dev.github.io/it-incubator-todolist/',
-        demo: 'margokomilfo-dev.github.io/it-incubator-todolist/'
+        demo: 'margokomilfo-dev.github.io/todolist/'
     },
     {
-        id: v1(), style: project3, title: 'Counter', description: 'html-css', part: 'html-css', gitHubLink: '#',
-        gitHub: '#',
-        demoLink: '#',
-        demo: '#',
+        id: v1(), style: currency, title: 'Currency', description: 'JavaScript, JSON, ajax', part: 'js',
+        gitHubLink: 'https://github.com/Margokomilfo-dev/converter-zl-usd-euro-json-local--ajax',
+        gitHub: 'margokomilfo-dev/converter-zl-usd-euro/',
+        demoLink: '',
+        demo: '-',
+    },
+    {
+        id: v1(), style: calculator, title: 'Currency', description: 'JavaScript, JSON, ajax, HTML/CSS', part: 'html-css-js',
+        gitHubLink: 'https://github.com/Margokomilfo-dev/REACT-calculators',
+        gitHub: 'margokomilfo-dev/REACT-calculators/',
+        demoLink: '',
+        demo: '-',
+    },
+    {
+        id: v1(), style: keeper, title: 'Money Keeper', description: 'JavaScript, HTML/Sass', part: 'html-css-js',
+        gitHubLink: 'https://github.com/Margokomilfo-dev/money-keeper',
+        gitHub: 'margokomilfo-dev/money-keeper/',
+        demoLink: '',
+        demo: '-',
+    },
+    {
+        id: v1(), style: tabs, title: 'Tabulation', description: 'JavaScript, HTML/CSS', part: 'html-css-js',
+        gitHubLink: 'https://github.com/Margokomilfo-dev/money-keeper',
+        gitHub: 'margokomilfo-dev/money-keeper/',
+        demoLink: '',
+        demo: '-',
+    },
+    {
+        id: v1(), style: timer, title: 'Timer', description: 'JavaScript, HTML/CSS', part: 'html-css-js',
+        gitHubLink: 'https://github.com/Margokomilfo-dev/timer1',
+        gitHub: 'margokomilfo-dev/timer/',
+        demoLink: '',
+        demo: '-',
+    },
+    {
+        id: v1(), style: timer_, title: 'Timer', description: 'JavaScript, HTML/CSS', part: 'html-css-js',
+        gitHubLink: 'https://github.com/Margokomilfo-dev/timer2',
+        gitHub: 'margokomilfo-dev/timer2',
+        demoLink: '',
+        demo: '-',
+    },
+    {
+        id: v1(), style: popup, title: 'Popup', description: 'JavaScript, HTML/CSS', part: 'html-css-js',
+        gitHubLink: 'https://github.com/Margokomilfo-dev/popup',
+        gitHub: 'margokomilfo-dev/popup',
+        demoLink: '',
+        demo: '-',
     },
 ]
 

@@ -22,7 +22,7 @@ function App() {
             <Insertion title={'I Love To Design & Develop'}/>
             <Portfolio/>
             <Skills/>
-            <Insertion title={'I Open To Work'}/>
+            <Insertion title={`I'm Open To Work`}/>
             <ContactMe/>
             <Footer/>
         </div>
