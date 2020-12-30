@@ -11,10 +11,15 @@ export const WorkBlock: React.FC<WorkBlockType> = (props) => {
         <div className={s.work} style={props.work.style} data-aos="zoom-in">
             <div className={s.curtain}>
                 <div className={s.details}>
-                    <h2>{props.work.title}</h2>
-                    <p>{props.work.description}</p>
-                    <div>gitHub: <a href={props.work.gitHub} target='_blank'>link</a></div>
-                    <div>demo: <a href={props.work.demo} target='_blank'>link</a></div>
+                    <div>
+                        <h2>{props.work.title}</h2>
+                        <p>{props.work.description}</p>
+                    </div>
+                    <div>
+                        <div className={s.github}><span> gitHub: </span><a href={props.work.gitHubLink} target='_blank'> {props.work.gitHub} </a></div>
+                        <div className={s.demo}><span> demo: </span> <a href={props.work.demoLink} target='_blank'>{props.work.demo}</a></div>
+                    </div>
+
                 </div>
             </div>
         </div>
