@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './Skills.module.css'
+import s from './Skills.module.sass'
 import styles from '../../common/commonStyles.module.sass'
 
 type SkillPropsType = {}

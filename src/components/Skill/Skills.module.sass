@@ -1,0 +1,65 @@
+.skillsContainer
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	width: 80%
+	margin: 0 auto
+	@media screen and (max-width: 1025px)
+		width: 100%
+
+	.skill
+		width: 320px
+		border: 1px solid lightgrey
+		margin: 0 10px 10px 10px
+		padding: 10px 0 20px 0
+		display: flex
+		flex-direction: column
+		align-items: center
+		text-align: center
+		@media screen and (max-width: 680px)
+			width: 300px
+		@media screen and (max-width: 640px)
+			width: 270px
+		@media screen and (max-width: 580px)
+			width: 250px
+		@media screen and (max-width: 540px)
+			margin: 0 5px 5px 5px
+			width: 230px
+		@media screen and (max-width: 480px)
+			margin: 5px
+			width: 90%
+
+		.skillContent
+			& h3
+				color: #2c3e50
+				font-size: 18px
+				font-weight: bold
+				margin: 10px 0
+				padding: 0 10px
+				@media screen and (max-width: 730px)
+					font-size: 16px
+				@media screen and (max-width: 655px)
+					font-size: 15px
+				@media screen and (max-width: 580px)
+					padding: 0 5px
+
+		.lineWrapper
+			display: flex
+			justify-content: center
+			align-items: center
+
+			.line
+				height: 15px
+				width: 200px
+				background-color: #EFF1F7
+				border: 1px solid lightgrey
+				border-radius: 20px
+				position: relative
+
+				.percentLine
+					height: 15px
+					background-color: #f84917
+					border-radius: 20px
+					border: 1px solid #f84917
+					position: absolute
+					top: -1px
