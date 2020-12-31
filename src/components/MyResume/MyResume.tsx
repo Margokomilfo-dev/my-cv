@@ -24,6 +24,17 @@ const state: stateType = {
         {
             id: v1(),
             position: 'Front-end developer',
+            companyName: 'freelance',
+            from: '05.2020',
+            to: 'Current',
+            description: 'React development using Redux, React/Redux, axios, MaterialUI libraries. Work with Hooks,' +
+                ' TypeScript, creating Rest API. Refactoring, bug fixing, migrating to TypeScript, registration and' +
+                ' login form creation, custom components development, jest testing, storybook. JavaScript,' +
+                ' TypeScript, React/Redux,RestAPI. '
+        },
+        {
+            id: v1(),
+            position: 'Front-end developer',
             companyName: 'IT-incubator (Belarus)',
             from: '09.2020',
             to: 'Current',
