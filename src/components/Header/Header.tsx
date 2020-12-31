@@ -17,8 +17,11 @@ export const Header: React.FC<HeaderPropsType> = (props) => {
             <Menu/>
             <Languages/>
             <div className={styles.container}>
+
                 <div className={s.contentContainer}>
+
                     <div className={s.content}>
+
                         <div className={s.myLogo}> </div>
                         <div className={s.titles}>
                             <h2>{t('name')}</h2>

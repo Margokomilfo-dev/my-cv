@@ -3,18 +3,20 @@ import i18n from '../../../i18next'
 import s from './Languages.module.sass'
 
 export const Languages: React.FC = (props) => {
-    const changeLanguage = (lang: string) => {
-        i18n.changeLanguage(lang)
+    const changeLanguageEn = () => {
+        i18n.changeLanguage('en')
+    }
+    const changeLanguageRu = () => {
+        i18n.changeLanguage('ru')
+    }
+    const changeLanguagePl = () => {
+        i18n.changeLanguage('pl')
     }
     return(
         <div className={s.lang}>
-                <button onClick={() => changeLanguage('en')}> EN </button>
-
-                <button onClick={() => changeLanguage('ru')}> RU </button>
-
-                <button onClick={() => changeLanguage('pl')}> PL </button>
-
-
+                <button onClick={changeLanguageEn}> EN </button>
+                <button onClick={changeLanguageRu}> RU </button>
+                <button onClick={changeLanguagePl}> PL </button>
         </div>
     )
 }
