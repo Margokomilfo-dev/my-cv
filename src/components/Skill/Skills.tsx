@@ -13,8 +13,6 @@ export const Skills: React.FC<SkillPropsType> = (props) => {
                     <span className={styles.border}> </span>
                 </div>
                 <div className={s.skillsContainer}>
-
-                    {/*------------*/}
                     <SkillBox style={{width: '75%'}} title='React'/>
                     <SkillBox style={{width: '75%'}} title='TypeScript'/>
                     <SkillBox style={{width: '75%'}} title='Redux'/>
@@ -27,62 +25,6 @@ export const Skills: React.FC<SkillPropsType> = (props) => {
                     <SkillBox style={{width: '70%'}} title='Storybook'/>
                     <SkillBox style={{width: '70%'}} title='TDD - Jest'/>
                     <SkillBox style={{width: '70%'}} title='HTML & CSS (Sass/Less/SCSS)'/>
-                    {/*-------------*/}
-
-                    {/*<div className={s.skill}>*/}
-                    {/*    <div><img src="" alt="skill" className={s.skillImg}/> </div>*/}
-                    {/*    <div className={s.skillContent}>*/}
-                    {/*        <h3>HTML/CSS</h3>*/}
-                    {/*        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda est minima*/}
-                    {/*            natus praesentium provident quisquam vel vero, voluptas. Minus?</p>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-
-                    {/*<div className={s.skill}>*/}
-                    {/*    <div><img src="" alt="skill" className={s.skillImg}/> </div>*/}
-                    {/*    <div className={s.skillContent}>*/}
-                    {/*        <h3>HTML/CSS</h3>*/}
-                    {/*        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda est minima*/}
-                    {/*            natus praesentium provident quisquam vel vero, voluptas. Minus?</p>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-
-                    {/*<div className={s.skill}>*/}
-                    {/*    <div><img src="" alt="skill" className={s.skillImg}/> </div>*/}
-                    {/*    <div className={s.skillContent}>*/}
-                    {/*        <h3>JavaScript</h3>*/}
-                    {/*        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda est minima*/}
-                    {/*            natus praesentium provident quisquam vel vero, voluptas. Minus?</p>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-
-                    {/*<div className={s.skill}>*/}
-                    {/*    <div><img src="" alt="skill" className={s.skillImg}/> </div>*/}
-                    {/*    <div className={s.skillContent}>*/}
-                    {/*        <h3>React</h3>*/}
-                    {/*        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda est minima*/}
-                    {/*            natus praesentium provident quisquam vel vero, voluptas. Minus?</p>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-
-                    {/*<div className={s.skill}>*/}
-                    {/*    <div><img src="" alt="skill" className={s.skillImg}/> </div>*/}
-                    {/*    <div className={s.skillContent}>*/}
-                    {/*        <h3>Redux</h3>*/}
-                    {/*        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda est minima*/}
-                    {/*            natus praesentium provident quisquam vel vero, voluptas. Minus?</p>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-
-                    {/*<div className={s.skill}>*/}
-                    {/*    <div><img src="" alt="skill" className={s.skillImg}/> </div>*/}
-                    {/*    <div className={s.skillContent}>*/}
-                    {/*        <h3>Redux</h3>*/}
-                    {/*        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda est minima*/}
-                    {/*            natus praesentium provident quisquam vel vero, voluptas. Minus?</p>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-
                 </div>
             </div>
         </div>
