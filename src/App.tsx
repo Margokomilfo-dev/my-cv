@@ -14,6 +14,7 @@ import {Footer} from './components/Footer/Footer'
 AOS.init()
 
 function App() {
+
     return (
         <div className="App">
             <Header/>
