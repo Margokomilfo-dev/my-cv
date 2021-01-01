@@ -3,7 +3,7 @@ import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
-const languages= ['en', 'ru', 'pl']
+const languages= ['en', 'pl']
 i18n
     .use(Backend)
     .use(LanguageDetector)
@@ -76,77 +76,20 @@ i18n
                             'position': 'Front-end developer',
                             'companyName': 'Felix (Belarus)',
                             'description': 'Creating of web-sites & web-design (Photoshop).'
-                        }
-                    }
-                }
-            },
-            ru: {
-                translation: {
-                    'name': 'Маргарита Прищепёнок',
-                    'aboutMe': {
-                        'title': 'Обо мне',
-                        'common': {
-                            '1': 'Ответственный и мотивированный Front-End разработчик с опытом создания целевых страниц, SPA с использованием HTML, CSS, JS, React, Redux, самодисциплиной и навыками работы в команде. Я быстро нахожу общий язык с людьми. Учусь легко и с удовольствием.',
-                            '2': '',
-                            '3': '',
                         },
-                        'left': {
-                            'Phone': '+48 796-027-535',
-                            'Email': 'margokomilfo-dev@gmail.com',
-                            'Address': 'Вроцлав, Польша',
-                            'buttonName': 'Скачать резюме',
+                        'education': 'education',
+                        'edu1': {
+                            'companyName': 'Połotsk State University',
+                            'faculty': 'Information technologies',
+                            'specialization': 'Information Technologies Software',
+                            'country': 'Belarus',
                         },
-                        'right': {
-                            '0': 'Хобби и интересы',
-                            '1': 'Спорт',
-                            '2': 'Книги',
-                            '3': 'Семья',
-                            '4': 'codewars',
-                            '5': 'животные',
-                            '6': 'путешествия',
-                            '7': 'Mac OS',
-                            '8': 'деньги',
-                            '9': 'кино',
-                            '10': 'stackoverflow',
-                            '11': 'habr',
-                            '12': 'кофе',
+                        'edu2': {
+                            'companyName': 'Połotsk State University',
+                            'faculty': 'Law',
+                            'specialization': 'Jurisprudence',
                         },
                     },
-                    'myResume': {
-                        'title': 'Мое резюме',
-                        'experiences': 'опыт',
-                        '1': {
-                            'position': 'Front-end разработчик',
-                            'companyName': 'freelance',
-                            'to': 'сейчас',
-                            'description': 'React разработка с использованием Redux, React/Redux, axios, MaterialUI libraries. Работа с Hooks,' +
-                                ' TypeScript, Rest API. Рефакторинг, фикс багов, миграция react-приложения на  TypeScript, создание форм логинизации и регистрации,' +
-                                ' разработка небольших фич, тестирование jest, storybook. JavaScript,' +
-                                ' TypeScript, React/Redux,RestAPI. '
-                        },
-                        '2': {
-                            'position': 'Front-end разработчик',
-                            'companyName': 'IT-incubator (Беларусь)',
-                            'to': 'сейчас',
-                            'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Написание веб-проектов, менторинг студентов,' +
-                                'фикс багов, создание unit-тестов, верстка.'
-                        },
-                        '3': {
-                            'position': 'Director',
-                            'companyName': 'Online магазин "Krasotka-pro" (Беларусь)',
-                            'description': 'Интернет продажи, маркетинг, online поддержка, финансовый меноджмент, решение проблеи и нахождение компромиссов. '
-                        },
-                        '4': {
-                            'position': 'Преподаватель языков программирования',
-                            'companyName': 'Полоцкий Государственный Университет (Беларусь)',
-                            'description': 'Преподавала следующие предметы: Pascal, Delphi, HTML, CSS, JavaScript, 1C. Была ведущим преподавателем 30 дипломных проектов.'
-                        },
-                        '5': {
-                            'position': 'Front-end разработчик',
-                            'companyName': 'Felix (Беларусь)',
-                            'description': 'Создание web-страниц и веб-дизайна (Photoshop).'
-                        }
-                    }
                 }
             },
             pl: {
@@ -155,7 +98,7 @@ i18n
                     'aboutMe': {
                         'title': 'Jestem',
                         'common': {
-                            '1': 'Front-end (react) developer - to do czego ja dążę pewnymi małymi krokami w ciągu ostatnich 14 miesięcy. Codzienna praca nad sobą, doskonalenie umiejętności, nauka angielskiego i czytanie literatury technicznej pomaga mi każdego dnia być bliżej celu.\n' +
+                            '1': 'Front-end (react) developer - to do czego ja dążę pewnymi małymi krokami w ciągu ostatnich 2 lat. Codzienna praca nad sobą, doskonalenie umiejętności, nauka angielskiego i czytanie literatury technicznej pomaga mi każdego dnia być bliżej celu.\n' +
                                 'Łatwo? Nie. Ale jestem gotowa zdobywać dogłębną wiedzę i doświadczenie.',
                             '2': 'W Polsce mam stały pobyt z dostępem do pracy. Jestem osobą pracowitą i zorientowaną na cel z ogromną motywacją do osiągania wysokich wyników i zostania wysoko wykwalifikowanym specjalistą.',
                             '3': 'Moim głównym celem w pracy jest zrobić więcej, niż ktokolwiek ode mnie oczekuje i rozwijać się jako profesjonalista razem z firmą. Chciałbym dołączyć do waszego zespołu i wierzę, że razem będziemy mogli stworzyć ten świat najlepszym miejscem.',
@@ -202,13 +145,13 @@ i18n
                                 ' solving problems with code and fixing of code-bugs.'
                         },
                         '3': {
-                            'position': 'Director',
-                            'companyName': 'Online store "Krasotka-pro" (Białoruś)',
+                            'position': 'Dyrector',
+                            'companyName': "Online store 'Krasotka-pro' (Białoruś)",
                             'description': 'internet sales, marketing, online support, financial management, problem solving '
                         },
                         '4': {
                             'position': 'Nauczyciel języków programowania',
-                            'companyName': 'Polotski Narodowy Uniwersytet (Białoruś)',
+                            'companyName': 'Połotski Narodowy Uniwersytet (Białoruś)',
                             'description': 'Teaching next subjects: Pascal, Delphi, HTML, CSS, JavaScript, accounting program 1C. I' +
                                 ' was the main teacher of 30 testimony projects.'
                         },
@@ -216,8 +159,20 @@ i18n
                             'position': 'Front-end developer',
                             'companyName': '\'Felix\' (Białoruś)',
                             'description': 'Creating of web-sites & web-design (Photoshop).'
-                        }
-                    }
+                        },
+                        'education': 'edukacja',
+                        'edu1': {
+                            'companyName': 'Połotski Narodowy Uniwersytet',
+                            'faculty': 'Technologie informacyjne',
+                            'specialization': 'Oprogramowanie technologii informacyjnych',
+                            'country': 'Białoruś',
+                        },
+                        'edu2': {
+                            'companyName': 'Połotski Narodowy Uniwersytet',
+                            'faculty': 'Prawoznawstwo',
+                            'specialization': 'Prawnik',
+                        },
+                    },
                 }
             },
             whiteList: languages,

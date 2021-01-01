@@ -61,29 +61,29 @@ export const MyResume: React.FC<MyResumePropsType> = (props) => {
             },
             {
                 id: v1(),
-                position: 'Front-end developer',
-                companyName: 'Felix (Belarus)',
+                position: t('myResume.5.position'),
+                companyName: t('myResume.5.companyName'),
                 from: 2010,
                 to: '2012',
-                description: 'Creating of web-sites & web-design (Photoshop).'
+                description: t('myResume.5.description'),
             },
 
         ],
         education: [
             {
                 id: v1(),
-                companyName: 'Polotsk State University',
-                faculty: 'Information technologies',
-                specialization: 'Information Technologies Software',
+                companyName: t('myResume.edu1.companyName') ,
+                faculty: t('myResume.edu1.faculty'),
+                specialization: t('myResume.edu1.specialization'),
                 from: 2006,
                 to: '2011',
                 description: ''
             },
             {
                 id: v1(),
-                companyName: 'Polotsk State University',
-                faculty: 'Low',
-                specialization: 'Jurisprudence',
+                companyName: t('myResume.edu2.companyName') ,
+                faculty: t('myResume.edu2.faculty'),
+                specialization:  t('myResume.edu2.specialization'),
                 from: 2008,
                 to: '2011',
                 description: ''
