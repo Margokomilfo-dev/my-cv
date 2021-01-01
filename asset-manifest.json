@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-cv/static/css/main.ef035bdb.chunk.css",
-    "main.js": "/my-cv/static/js/main.8eeab1be.chunk.js",
-    "main.js.map": "/my-cv/static/js/main.8eeab1be.chunk.js.map",
+    "main.js": "/my-cv/static/js/main.facbb763.chunk.js",
+    "main.js.map": "/my-cv/static/js/main.facbb763.chunk.js.map",
     "runtime-main.js": "/my-cv/static/js/runtime-main.2877b1bb.js",
     "runtime-main.js.map": "/my-cv/static/js/runtime-main.2877b1bb.js.map",
     "static/css/2.30fbed10.chunk.css": "/my-cv/static/css/2.30fbed10.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/3M.7017d883.png": "/my-cv/static/media/3M.7017d883.png",
     "static/media/5.a85fc3e2.jpg": "/my-cv/static/media/5.a85fc3e2.jpg",
     "static/media/6.ecef4cd1.jpg": "/my-cv/static/media/6.ecef4cd1.jpg",
-    "static/media/CVenglish.33762aaa.pdf": "/my-cv/static/media/CVenglish.33762aaa.pdf",
+    "static/media/CVenglish.64685cc8.pdf": "/my-cv/static/media/CVenglish.64685cc8.pdf",
     "static/media/airplane.969b2a3d.png": "/my-cv/static/media/airplane.969b2a3d.png",
     "static/media/book.0427074c.png": "/my-cv/static/media/book.0427074c.png",
     "static/media/coffee.0f15e243.png": "/my-cv/static/media/coffee.0f15e243.png",
@@ -56,6 +56,6 @@
     "static/css/2.30fbed10.chunk.css",
     "static/js/2.9f00c5cb.chunk.js",
     "static/css/main.ef035bdb.chunk.css",
-    "static/js/main.8eeab1be.chunk.js"
+    "static/js/main.facbb763.chunk.js"
   ]
 }
