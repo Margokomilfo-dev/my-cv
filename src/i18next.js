@@ -13,6 +13,9 @@ i18n
             en: {
                 translation: {
                     'name': 'Marharyta Pryshchapionak',
+                    'to': 'current',
+                    'onlineCourse': 'Online-course',
+                    'PSU': 'Polotsk State University',
                     'aboutMe': {
                         'title': 'ABOUT ME',
                         'common': {
@@ -44,50 +47,105 @@ i18n
                     },
                     'myResume': {
                         'title': 'MY RESUME',
-                        'experiences': 'experiences',
-                        '1': {
-                            'position': 'Front-end developer',
-                            'companyName': 'freelance',
-                            'to': 'Current',
-                            'description': 'React development using Redux, React/Redux, axios, MaterialUI libraries. Work with Hooks,' +
-                                ' TypeScript, creating Rest API. Refactoring, bug fixing, migrating to TypeScript, registration and' +
-                                ' login form creation, custom components development, jest testing, storybook. JavaScript,' +
-                                ' TypeScript, React/Redux,RestAPI. '
+                        'experiences': {
+                            'exp': 'experiences',
+                            '1': {
+                                'position': 'Front-end developer',
+                                'companyName': 'freelance',
+                                'description': 'React development using Redux, React/Redux, axios, MaterialUI libraries. Work with Hooks,' +
+                                    ' TypeScript, creating Rest API. Refactoring, bug fixing, migrating to TypeScript, registration and' +
+                                    ' login form creation, custom components development, jest testing, storybook. JavaScript,' +
+                                    ' TypeScript, React/Redux,RestAPI. '
+                            },
+                            '2': {
+                                'position': 'Front-end developer',
+                                'companyName': 'IT-incubator (Belarus)',
+                                'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Writing web-projects, mentoring of students,' +
+                                    ' solving problems with code and fixing of code-bugs.'
+                            },
+                            '3': {
+                                'position': 'Director',
+                                'companyName': 'Online-store "Krasotka-pro" (Belarus)',
+                                'description': 'internet sales, marketing, online support, financial management, problem solving '
+                            },
+                            '4': {
+                                'position': 'Teacher of programing languages',
+                                'companyName': 'Polotsk State University (Belarus)',
+                                'description': 'Teaching next subjects: Pascal, Delphi, HTML, CSS, JavaScript, accounting program 1C. I' +
+                                    ' was the main teacher of 30 testimony projects.'
+                            },
+                            '5': {
+                                'position': 'Front-end developer',
+                                'companyName': 'Felix (Belarus)',
+                                'description': 'Creating of web-sites & web-design (Photoshop).'
+                            },
                         },
-                        '2': {
-                            'position': 'Front-end developer',
-                            'companyName': 'IT-incubator (Belarus)',
-                            'to': 'Current',
-                            'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Writing web-projects, mentoring of students,' +
-                                ' solving problems with code and fixing of code-bugs.'
+                        'education': {
+                            'edu': 'education',
+                            'edu1': {
+                                'faculty': 'Information technologies',
+                                'specialization': 'Information Technologies Software',
+                                'country': 'Belarus',
+                            },
+                            'edu2': {
+                                'faculty': 'Law',
+                                'specialization': 'Jurisprudence',
+                            },
                         },
-                        '3': {
-                            'position': 'Director',
-                            'companyName': 'Online store "Krasotka-pro" (Belarus)',
-                            'description': 'internet sales, marketing, online support, financial management, problem solving '
-                        },
-                        '4': {
-                            'position': 'Teacher of programing languages',
-                            'companyName': 'Polotsk State University (Belarus)',
-                            'description': 'Teaching next subjects: Pascal, Delphi, HTML, CSS, JavaScript, accounting program 1C. I' +
-                                ' was the main teacher of 30 testimony projects.'
-                        },
-                        '5': {
-                            'position': 'Front-end developer',
-                            'companyName': 'Felix (Belarus)',
-                            'description': 'Creating of web-sites & web-design (Photoshop).'
-                        },
-                        'education': 'education',
-                        'edu1': {
-                            'companyName': 'Połotsk State University',
-                            'faculty': 'Information technologies',
-                            'specialization': 'Information Technologies Software',
-                            'country': 'Belarus',
-                        },
-                        'edu2': {
-                            'companyName': 'Połotsk State University',
-                            'faculty': 'Law',
-                            'specialization': 'Jurisprudence',
+                        'courses': {
+                            'cour': 'courses',
+                            'course1': {
+                                'position': 'React for middle',
+                                'description': 'TypeScript, Ant Design, Appolo GraphQL, Socket.IO, RestAPI, MaterialUI, vanilla JS,' +
+                                    ' Angular, node.js.'
+                            },
+                            'course2': {
+                                'position': 'React/Redux',
+                                'description': 'Props (attributes), functional Components, class Components, state, methods of' +
+                                    ' lifecycle, create-react-app, bind, Babel, ECMAScript, presentational & containerComponents,' +
+                                    ' redux-thunk, state vs Redux, HOC, React Hooks, useReducer, useMemo, useCallback, FLAX, npm/yarn.'
+                            },
+                            'course3': {
+                                'position': 'Web-developer 2.0',
+                                'description': 'HTML5, CSS3 (BEM, SASS, Bootstrap), JavaScript (HTML DOM), Git & GitHub, Libraries jQuery,' +
+                                    ' React, Redux, Website testing, Animation.'
+                            },
+                            'course4': {
+                                'position': 'Web-developer',
+                                'description': 'HTML/CSS/Less/Saas, Bootstrap, Javascript, jQuery, WordPress, Responsive web design (RWD).'
+                            },
+                            'course5': {
+                                'position': 'JavaScript + React',
+                                'description': 'JavaScript in React, jsx, Flux, class Components, Object Life Cycles, connect, building' +
+                                    ' forms in React - formik library.'
+                            },
+                            'course6': {
+                                'position': 'HTML/CSS + JavaScript',
+                                'description': 'HTML, css, basic jQuery, basic JavaScript'
+                            },
+                            'course7': {
+                                'position': 'HTML, css, javascript',
+                                'companyName': 'IT-Academy',
+                                'description': 'HTML, css, basic JavaScript'
+                            },
+                            'course8': {
+                                'position': 'Pedagogical course',
+                                'description': 'What is education and what types of it we have today? Learn some key point about' +
+                                    ' development of offline and online education, make a good pedagogical dispositive, how to start your' +
+                                    ' teaching project, advice and tips for beginning teaching project and improving teaching skills'
+                            },
+                            'course9': {
+                                'position': 'CorelDraw',
+                                'description': 'Create business card and unique color palettes, design clean and professional business' +
+                                    ' cards,organizing a brochure layout by learning. Learned how to manage pages, also combining' +
+                                    ' vector shapes, to use them in logos and graphics'
+                            },
+                            'course10': {
+                                'position': 'Photoshop',
+                                'description': 'Business cards, design icons, illustrations and characters, improve and repair' +
+                                    ' photos, remove people or objects from photos and cut away a person from their background, ' +
+                                    'use creative effects to design stunning text styles, layers, master selections, working with the layers panel.'
+                            },
                         },
                     },
                 }
@@ -95,6 +153,9 @@ i18n
             pl: {
                 translation: {
                     'name': 'Marharyta Pryshchapionak',
+                    'to': 'obecnie',
+                    'onlineCourse': 'Online-kurs',
+                    'PSU': 'Połotski Narodowy Uniwersytet',
                     'aboutMe': {
                         'title': 'Jestem',
                         'common': {
@@ -127,50 +188,105 @@ i18n
                     },
                     'myResume': {
                         'title': 'MOJE CV',
-                        'experiences': 'doświadczenie',
-                        '1': {
-                            'position': 'Front-end developer',
-                            'companyName': 'freelance',
-                            'to': 'obecnie',
-                            'description': 'React development using Redux, React/Redux, axios, MaterialUI libraries. Work with Hooks,' +
-                                ' TypeScript, creating Rest API. Refactoring, bug fixing, migrating to TypeScript, registration and' +
-                                ' login form creation, custom components development, jest testing, storybook. JavaScript,' +
-                                ' TypeScript, React/Redux,RestAPI. '
+                        'experiences': {
+                            'exp': 'doświadczenie',
+                            '1': {
+                                'position': 'Front-end developer',
+                                'companyName': 'freelance',
+                                'description': 'React development using Redux, React/Redux, axios, MaterialUI libraries. Work with Hooks,' +
+                                    ' TypeScript, creating Rest API. Refactoring, bug fixing, migrating to TypeScript, registration and' +
+                                    ' login form creation, custom components development, jest testing, storybook. JavaScript,' +
+                                    ' TypeScript, React/Redux,RestAPI. '
+                            },
+                            '2': {
+                                'position': 'Front-end developer',
+                                'companyName': 'IT-incubator (Białoruś)',
+                                'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Writing web-projects, mentoring of students,' +
+                                    ' solving problems with code and fixing of code-bugs.'
+                            },
+                            '3': {
+                                'position': 'Dyrector',
+                                'companyName': "Online store 'Krasotka-pro' (Białoruś)",
+                                'description': 'internet sales, marketing, online support, financial management, problem solving '
+                            },
+                            '4': {
+                                'position': 'Nauczyciel języków oprogramowania',
+                                'companyName': 'Połotski Narodowy Uniwersytet (Białoruś)',
+                                'description': 'Teaching next subjects: Pascal, Delphi, HTML, CSS, JavaScript, accounting program 1C. I' +
+                                    ' was the main teacher of 30 testimony projects.'
+                            },
+                            '5': {
+                                'position': 'Front-end developer',
+                                'companyName': '\'Felix\' (Białoruś)',
+                                'description': 'Creating of web-sites & web-design (Photoshop).'
+                            },
                         },
-                        '2': {
-                            'position': 'Front-end developer',
-                            'companyName': 'IT-incubator (Białoruś)',
-                            'to': 'obecnie',
-                            'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Writing web-projects, mentoring of students,' +
-                                ' solving problems with code and fixing of code-bugs.'
+                        'education': {
+                            'edu': 'edukacja',
+                            'edu1': {
+                                'faculty': 'Technologie informacyjne',
+                                'specialization': 'Oprogramowanie technologii informacyjnych',
+                                'country': 'Białoruś',
+                            },
+                            'edu2': {
+                                'faculty': 'Prawoznawstwo',
+                                'specialization': 'Prawnik',
+                            },
                         },
-                        '3': {
-                            'position': 'Dyrector',
-                            'companyName': "Online store 'Krasotka-pro' (Białoruś)",
-                            'description': 'internet sales, marketing, online support, financial management, problem solving '
-                        },
-                        '4': {
-                            'position': 'Nauczyciel języków programowania',
-                            'companyName': 'Połotski Narodowy Uniwersytet (Białoruś)',
-                            'description': 'Teaching next subjects: Pascal, Delphi, HTML, CSS, JavaScript, accounting program 1C. I' +
-                                ' was the main teacher of 30 testimony projects.'
-                        },
-                        '5': {
-                            'position': 'Front-end developer',
-                            'companyName': '\'Felix\' (Białoruś)',
-                            'description': 'Creating of web-sites & web-design (Photoshop).'
-                        },
-                        'education': 'edukacja',
-                        'edu1': {
-                            'companyName': 'Połotski Narodowy Uniwersytet',
-                            'faculty': 'Technologie informacyjne',
-                            'specialization': 'Oprogramowanie technologii informacyjnych',
-                            'country': 'Białoruś',
-                        },
-                        'edu2': {
-                            'companyName': 'Połotski Narodowy Uniwersytet',
-                            'faculty': 'Prawoznawstwo',
-                            'specialization': 'Prawnik',
+                        'courses': {
+                            'cour': 'kursy',
+                            'course1': {
+                                'position': 'React for middle',
+                                'to': 'obecnie',
+                                'description': 'TypeScript, Ant Design, Appolo GraphQL, Socket.IO, RestAPI, MaterialUI, vanilla JS,' +
+                                    ' Angular, node.js.'
+                            },
+                            'course2': {
+                                'position': 'React/Redux',
+                                'description': 'Props (attributes), functional Components, class Components, state, methods of' +
+                                    ' lifecycle, create-react-app, bind, Babel, ECMAScript, presentational & containerComponents,' +
+                                    ' redux-thunk, state vs Redux, HOC, React Hooks, useReducer, useMemo, useCallback, FLAX, npm/yarn.'
+                            },
+                            'course3': {
+                                'position': 'Web-developer 2.0',
+                                'description': 'HTML5, CSS3 (BEM, SASS, Bootstrap), JavaScript (HTML DOM), Git & GitHub, Libraries jQuery,' +
+                                    ' React, Redux, Website testing, Animation.'
+                            },
+                            'course4': {
+                                'position': 'Web-developer',
+                                'description': 'HTML/CSS/Less/Saas, Bootstrap, Javascript, jQuery, WordPress, Responsive web design (RWD).'
+                            },
+                            'course5': {
+                                'position': 'JavaScript + React',
+                                'description': 'JavaScript in React, jsx, Flux, class Components, Object Life Cycles, connect, building' +
+                                    ' forms in React - formik library.'
+                            },
+                            'course6': {
+                                'position': 'HTML/CSS + JavaScript',
+                                'description': 'HTML, css, basic jQuery, basic JavaScript'
+                            },
+                            'course7': {
+                                'position': 'HTML, css, javascript',
+                                'companyName': 'IT-Academy',
+                                'description': 'HTML, css, basic JavaScript'
+                            },
+                            'course8': {
+                                'position': 'Pedagogical course',
+                                'description': 'Czym jest edukacja i jakie jej rodzaje mamy dzisiaj? Dowiedziłam się kluczowego punktu na temat rozwój edukacji offline i online,' +
+                                    ' jak projekt nauczania, porady i wskazówki dotyczące rozpoczęcia nauczania projektu i doskonalenia umiejętności pedagogicznych.'
+                            },
+                            'course9': {
+                                'position': 'CorelDraw',
+                                'description': 'Create business card and unique color palettes, design clean and professional business' +
+                                    ' cards,organizing a brochure layout by learning. Learned how to manage pages, also combining' +
+                                    ' vector shapes, to use them in logos and graphics'
+                            },
+                            'course10': {
+                                'position': 'Photoshop',
+                                'description': 'Business cards, design icons, illustrations and characters, improve and repair' +
+                                    ' photos, remove people or objects from photos and cut away a person from their background, ' +
+                                    'use creative effects to design stunning text styles, layers, master selections, working with the layers panel.'
+                            },
                         },
                     },
                 }

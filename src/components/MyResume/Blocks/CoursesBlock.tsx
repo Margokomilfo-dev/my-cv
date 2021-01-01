@@ -1,9 +1,9 @@
 import React from 'react'
 import s from './Block.module.sass'
-import {CourcesType} from '../MyResume'
+import {CoursesType} from '../MyResume'
 
 type CoursesBlockPropsType = {
-    course: CourcesType
+    course: CoursesType
 }
 
 export const CoursesBlock: React.FC<CoursesBlockPropsType> = (props) => {
