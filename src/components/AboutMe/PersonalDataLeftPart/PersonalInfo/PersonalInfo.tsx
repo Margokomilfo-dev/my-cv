@@ -1,18 +1,21 @@
 import React from 'react'
 import s from './PersonalInfo.module.sass'
 import {v1} from 'uuid'
+import {useTranslation} from 'react-i18next'
 
 type PersonalInfoStateType = {
     commonInfo: Array<{ id: string, title: string, text: any }>
 }
-const state: PersonalInfoStateType = {
-    commonInfo: [
-        {id: v1(), title: 'Phone:', text: '+48 796-027-535'},
-        {id: v1(), title: 'Email:', text: 'margokomilfo-dev@gmail.com'},
-        {id: v1(), title: 'Address:', text: 'Wroclaw, Poland'},
-    ]
-}
+
 export const PersonalInfo: React.FC = () => {
+    const {t} = useTranslation()
+    const state: PersonalInfoStateType = {
+        commonInfo: [
+            {id: v1(), title: 'Phone', text: t('aboutMe.left.Phone')},
+            {id: v1(), title: 'Email',  text: t('aboutMe.left.Email')},
+            {id: v1(), title: 'Address', text:  t('aboutMe.left.Address')},
+        ]
+    }
     const personalInfo = state.commonInfo.map(info =>
         <div className={s.dataInfo} data-aos="fade-in">
             <span>{info.title}</span>

@@ -11,17 +11,14 @@ import {Languages} from './Languages/Languages'
 type HeaderPropsType = {}
 export const Header: React.FC<HeaderPropsType> = (props) => {
     const bg = {backgroundImage: `url(${bgr})`}
-    const { t } = useTranslation();
+    const {t} = useTranslation()
     return (
         <div className={s.header} data-aos="fade-in" id='home' style={bg}>
             <Menu/>
             <Languages/>
             <div className={styles.container}>
-
                 <div className={s.contentContainer}>
-
                     <div className={s.content}>
-
                         <div className={s.myLogo}> </div>
                         <div className={s.titles}>
                             <h2>{t('name')}</h2>
