@@ -20,10 +20,6 @@ import tabulation from '../../assets/img/portfolio/tabs.png'
 import timer1 from '../../assets/img/portfolio/timer.png'
 import timer2 from '../../assets/img/portfolio/timer2.jpg'
 import popup_ from '../../assets/img/portfolio/popup.png'
-import bg1 from '../../assets/img/1.jpg'
-import bg2 from '../../assets/img/2.jpg'
-import bg3 from '../../assets/img/5.jpg'
-import bg4 from '../../assets/img/6.jpg'
 import {WorkBlock} from './WorkBlock/WorkBlock'
 
 export type WorkType = { id: string, style: any, title: string, description: string, part: FilterType, gitHub: string, gitHubLink: string, demo: string, demoLink: string }
@@ -47,10 +43,6 @@ const tabs = {backgroundImage: `url(${tabulation})`}
 const timer = {backgroundImage: `url(${timer1})`}
 const timer_ = {backgroundImage: `url(${timer2})`}
 const popup = {backgroundImage: `url(${popup_})`}
-const project1 = {backgroundImage: `url(${bg1})`}
-const project2 = {backgroundImage: `url(${bg2})`}
-const project3 = {backgroundImage: `url(${bg3})`}
-const project4 = {backgroundImage: `url(${bg4})`}
 
 const initialState: Array<WorkType> = [
     {
