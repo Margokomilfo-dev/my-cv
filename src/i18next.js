@@ -3,7 +3,7 @@ import Backend from 'i18next-http-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import {initReactI18next} from 'react-i18next'
 
-const languages = ['en', 'pl']
+// const languages = ['en', 'pl']
 i18n
     .use(Backend)
     .use(LanguageDetector)
@@ -318,7 +318,7 @@ i18n
                 }
             }
         },
-        whiteList: languages,
+        // whiteList: languages,
         lng: 'en',
         fallbackLng: 'en',
         debug: true,

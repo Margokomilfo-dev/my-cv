@@ -37,7 +37,7 @@ type SkillBoxPropsType = {
 }
 export const SkillBox: React.FC<SkillBoxPropsType> = (props) => {
     return (
-        <div className={s.skill}>
+        <div className={s.skill} data-aos="fade-in">
             <div className={s.skillContent}>
                 <h3>{props.title}</h3>
             </div>
