@@ -316,14 +316,14 @@ i18n
                         'thank': 'Dziękuję.',
                     }
                 }
-            },
-            whiteList: languages,
-            lng: 'en',
-            fallbackLng: 'en',
-            debug: true,
-            interpolation: {
-                escapeValue: false
             }
+        },
+        whiteList: languages,
+        lng: 'en',
+        fallbackLng: 'en',
+        debug: true,
+        interpolation: {
+            escapeValue: false
         }
     })
 export default i18n
