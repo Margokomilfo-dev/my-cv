@@ -19,6 +19,7 @@
 		display: flex
 		flex-direction: column
 		align-items: center
+		position: relative
 		@media screen and (max-width: 950px)
 			width: 100%
 		.contactForm
@@ -55,3 +56,31 @@
 
 			.button
 				text-align: center
+		.sentPlace
+			width: 100%
+			height: 105%
+			margin: 0
+			background-color: rgba(242,242,242, 0.7)
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			text-align: center
+			position: absolute
+			top: -15px
+			left: 0
+			& span
+				font-size: 32px
+				color: #F84917
+				font-weight: 700
+				background-color: #fff
+				display: inline-block
+				width: 100%
+				padding: 20px
+				border-top: 1px dotted #F84917
+				border-bottom: 1px dotted #F84917
+				@media screen and (max-width: 450px)
+					font-size: 25px
+				@media screen and (max-width: 450px)
+									font-size: 20px
+

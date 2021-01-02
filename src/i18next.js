@@ -1,9 +1,9 @@
-import i18n from 'i18next';
-import Backend from 'i18next-http-backend';
-import LanguageDetector from 'i18next-browser-languagedetector';
-import { initReactI18next } from 'react-i18next';
+import i18n from 'i18next'
+import Backend from 'i18next-http-backend'
+import LanguageDetector from 'i18next-browser-languagedetector'
+import {initReactI18next} from 'react-i18next'
 
-const languages= ['en', 'pl']
+const languages = ['en', 'pl']
 i18n
     .use(Backend)
     .use(LanguageDetector)
@@ -148,11 +148,24 @@ i18n
                             },
                         },
                     },
+                    'contactMe': {
+                        'title': 'CONTACT ME',
+                        'inTouch': 'LET\'S GET IN TOUCH',
+                        'dropMe': 'DROP ME A LINE',
+                        'yourName': 'Your name',
+                        'placeholderName': 'name',
+                        'yourEmail': 'Your email',
+                        'yourMessage': 'Your message',
+                        'placeholderMessage': 'Your message...',
+                        'sendMessage': 'send message',
+                        'alert': 'The message was sent. :)',
+                        'thank': 'Thank you.'
+                    }
                 }
             },
             pl: {
                 translation: {
-                    'name': 'Marharyta Pryshchapionak',
+                    'name': 'Małgorzata Pryshchapionak',
                     'to': 'obecnie',
                     'onlineCourse': 'Online-kurs',
                     'PSU': 'Połotski Narodowy Uniwersytet',
@@ -206,7 +219,7 @@ i18n
                             },
                             '3': {
                                 'position': 'Dyrector',
-                                'companyName': "Online store 'Krasotka-pro' (Białoruś)",
+                                'companyName': 'Online store \'Krasotka-pro\' (Białoruś)',
                                 'description': 'internet sales, marketing, online support, financial management, problem solving '
                             },
                             '4': {
@@ -289,6 +302,19 @@ i18n
                             },
                         },
                     },
+                    'contactMe': {
+                        'title': 'SKONTAKTUJ SIĘ ZE MNĄ',
+                        'inTouch': 'Bądźmy w kontakcie',
+                        'dropMe': 'Napisz mi',
+                        'yourName': 'Jak masz na imię?',
+                        'placeholderName': 'imię',
+                        'yourEmail': 'Jaki jest twój email?',
+                        'yourMessage': 'Napisz wiadomość',
+                        'placeholderMessage': 'Twoja wiadomość...',
+                        'sendMessage': 'wyślij wiadomość',
+                        'alert': 'Wiadomość została wysłana. :)',
+                        'thank': 'Dziękuję.',
+                    }
                 }
             },
             whiteList: languages,
