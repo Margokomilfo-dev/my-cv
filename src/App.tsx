@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import {Insertion} from './components/Insertion/Insertion'
 import {Footer} from './components/Footer/Footer'
+import { ScrollToTop } from './components/ScrollToTop/ScrollToTop'
 
 AOS.init()
 
@@ -26,6 +27,7 @@ function App() {
             <Insertion title={`I'm Open To Work`}/>
             <ContactMe/>
             <Footer/>
+            <ScrollToTop/>
         </div>
     )
 }
