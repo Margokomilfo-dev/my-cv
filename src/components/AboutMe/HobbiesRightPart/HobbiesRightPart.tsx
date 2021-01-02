@@ -41,7 +41,7 @@ export const HobbiesRightPart: React.FC<HobbiesRightPartPropsType> = (props) => 
     ]
 
     const hobby = state.map(h =>
-        <div className={s.interest} data-aos="fade-in">
+        <div className={s.interest} data-aos="fade-in" key={h.id}>
             <div><img src={h.img} alt=""/></div>
             <div>{h.name}</div>
          </div>)

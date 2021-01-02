@@ -282,7 +282,7 @@ export const Portfolio: React.FC = () => {
                 </div>
 
                 <div className={s.portfolioContainer}>
-                    {filteredWorks.map(w => <WorkBlock work={w}/>)}
+                    {filteredWorks.map(w => <WorkBlock work={w} key={w.id}/>)}
                 </div>
             </div>
         </div>

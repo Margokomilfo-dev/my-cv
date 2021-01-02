@@ -17,7 +17,7 @@ export const PersonalInfo: React.FC = () => {
         ]
     }
     const personalInfo = state.commonInfo.map(info =>
-        <div className={s.dataInfo} data-aos="fade-in">
+        <div className={s.dataInfo} data-aos="fade-in" key={info.id}>
             <span>{info.title}</span>
             {info.text}
         </div>

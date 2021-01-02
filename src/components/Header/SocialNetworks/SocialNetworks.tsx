@@ -30,7 +30,7 @@ const state = [
 export const SocialNetworks: React.FC = () => {
     // const socials = state.map(network => <li><a className={s.name} href={network.link}><img src={network.img} alt="facebook"/></a></li>)
     const socials = state.map(network =>
-        <li><a className={s.name} href={network.link} target="_blank">
+        <li key={network.id}><a className={s.name} href={network.link} target="_blank">
             <FontAwesomeIcon icon={network.img} className={s.socialLib}/></a>
         </li>
     )
