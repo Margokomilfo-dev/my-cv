@@ -160,7 +160,11 @@ i18n
                         'placeholderMessage': 'Your message...',
                         'sendMessage': 'send message',
                         'alert': 'The message was sent. :)',
-                        'thank': 'Thank you.'
+                        'thank': 'Thank you.',
+                        'errorName1': 'Name is required',
+                        'errorName2': 'Are you sure?',
+                        'errorEmail1': 'Email is required',
+                        'errorEmail2': 'Invalid email address',
                     },
                     'insertion': {
                         '1': 'I Love To Design & Develop',
@@ -224,7 +228,7 @@ i18n
                             '1': {
                                 'position': 'Front-end developer',
                                 'companyName': 'freelance',
-                                'description': 'React development przy użyciu bibliotek Redux, React/Redux, axios, MaterialUI libraries. Praca z Hook\'ami' +
+                                'description': 'React development przy użyciu bibliotek Redux, React/Redux, axios, MaterialUI libraries. Praca z Hook\'ami,' +
                                     ' TypeScript, tworzenie Rest API. Refaktoryzacja, naprawianie błędów, migracja do TypeScript\'u. ' +
                                     ' Tworzenie formularzy logowania i rejestracji,  własnych komponentów. Jest testowanie, storybook. JavaScript' +
                                     ' TypeScript, React/Redux,RestAPI. '
@@ -232,7 +236,7 @@ i18n
                             '2': {
                                 'position': 'Front-end developer',
                                 'companyName': 'IT-incubator (Białoruś)',
-                                'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Pisanie projektów internetowych, mentoring uczniów,' +
+                                'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Tworzenie projektów internetowych, mentoring uczniów,' +
                                 'rozwiązywanie i naprawianie błędów w kodzie.'
                             },
                             '3': {
@@ -243,8 +247,8 @@ i18n
                             '4': {
                                 'position': 'Nauczyciel języków oprogramowania',
                                 'companyName': 'Połotski Narodowy Uniwersytet (Białoruś)',
-                                'description': 'Nauczanie kolejnych przedmiotów: Pascal, Delphi, HTML, CSS, JavaScript, program księgowy 1C. I' +
-                                   'byłam głównym nauczycielem 30 projektów dyplomowych.'
+                                'description': 'Nauczanie kolejnych przedmiotów: Pascal, Delphi, HTML, CSS, JavaScript, program księgowy 1C.' +
+                                   'Byłam głównym nauczycielem 30 projektów dyplomowych.'
                             },
                             '5': {
                                 'position': 'Front-end developer',
@@ -332,6 +336,10 @@ i18n
                         'sendMessage': 'wyślij wiadomość',
                         'alert': 'Wiadomość została wysłana. :)',
                         'thank': 'Dziękuję.',
+                        'errorName1': 'Imię jest wymagane',
+                        'errorName2': 'Jesteś pewny(a) ?',
+                        'errorEmail1': 'Email jest wymagany',
+                        'errorEmail2': 'Nieprawidłowy e-mail adres',
                     },
                     'insertion': {
                         '1': 'Lubię To, Co Robię',

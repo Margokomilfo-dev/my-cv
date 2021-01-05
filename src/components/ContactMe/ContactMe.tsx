@@ -24,14 +24,14 @@ export const ContactMe: React.FC<ContactMePropsType> = (props) => {
         validate: (values) => {
             const errors: FormikErrorType = {};
             if (!values.email) {
-                errors.email = 'Email is required';
+                errors.email = t('contactMe.errorEmail1')
             } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,8}$/i.test(values.email)) {
-                errors.email = 'Invalid email address';
+                errors.email = t('contactMe.errorName2')
             }
             if (!values.name) {
-                errors.name = 'Name is required';
+                errors.name = t('contactMe.errorName1')
             }else if (values.name.length < 2  ) {
-                errors.name = 'Are you right? :)'
+                errors.name = t('contactMe.errorName2')
             }
             return errors;
         },
