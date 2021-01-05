@@ -16,6 +16,7 @@ i18n
                     'to': 'current',
                     'onlineCourse': 'Online-course',
                     'PSU': 'Polotsk State University',
+                    'copyright': ' All Rights Reserved.',
                     'aboutMe': {
                         'title': 'ABOUT ME',
                         'common': {
@@ -185,6 +186,7 @@ i18n
                     'to': 'obecnie',
                     'onlineCourse': 'Online-kurs',
                     'PSU': 'Połotski Narodowy Uniwersytet',
+                    'copyright': ' Wszelkie Prawa Zastrzeżone',
                     'aboutMe': {
                         'title': 'Jestem',
                         'common': {
@@ -222,32 +224,32 @@ i18n
                             '1': {
                                 'position': 'Front-end developer',
                                 'companyName': 'freelance',
-                                'description': 'React development using Redux, React/Redux, axios, MaterialUI libraries. Work with Hooks,' +
-                                    ' TypeScript, creating Rest API. Refactoring, bug fixing, migrating to TypeScript, registration and' +
-                                    ' login form creation, custom components development, jest testing, storybook. JavaScript,' +
+                                'description': 'React development przy użyciu bibliotek Redux, React/Redux, axios, MaterialUI libraries. Praca z Hook\'ami' +
+                                    ' TypeScript, tworzenie Rest API. Refaktoryzacja, naprawianie błędów, migracja do TypeScript\'u. ' +
+                                    ' Tworzenie formularzy logowania i rejestracji,  własnych komponentów. Jest testowanie, storybook. JavaScript' +
                                     ' TypeScript, React/Redux,RestAPI. '
                             },
                             '2': {
                                 'position': 'Front-end developer',
                                 'companyName': 'IT-incubator (Białoruś)',
-                                'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Writing web-projects, mentoring of students,' +
-                                    ' solving problems with code and fixing of code-bugs.'
+                                'description': 'JavaScript, React/Redux, TypeScript, RestAPI. Pisanie projektów internetowych, mentoring uczniów,' +
+                                'rozwiązywanie i naprawianie błędów w kodzie.'
                             },
                             '3': {
                                 'position': 'Dyrector',
                                 'companyName': 'Online store \'Krasotka-pro\' (Białoruś)',
-                                'description': 'internet sales, marketing, online support, financial management, problem solving '
+                                'description': 'Sprzedaż internetowa, marketing, wsparcie online, zarządzanie finansami, rozwiązywanie problemów'
                             },
                             '4': {
                                 'position': 'Nauczyciel języków oprogramowania',
                                 'companyName': 'Połotski Narodowy Uniwersytet (Białoruś)',
-                                'description': 'Teaching next subjects: Pascal, Delphi, HTML, CSS, JavaScript, accounting program 1C. I' +
-                                    ' was the main teacher of 30 testimony projects.'
+                                'description': 'Nauczanie kolejnych przedmiotów: Pascal, Delphi, HTML, CSS, JavaScript, program księgowy 1C. I' +
+                                   'byłam głównym nauczycielem 30 projektów dyplomowych.'
                             },
                             '5': {
                                 'position': 'Front-end developer',
                                 'companyName': '\'Felix\' (Białoruś)',
-                                'description': 'Creating of web-sites & web-design (Photoshop).'
+                                'description': 'Tworzenie i projektowanie stron internetowych (Photoshop).'
                             },
                         },
                         'education': {
@@ -300,21 +302,21 @@ i18n
                                 'description': 'HTML, css, basic JavaScript'
                             },
                             'course8': {
-                                'position': 'Pedagogical course',
+                                'position': 'Kurs pedagogiczny',
                                 'description': 'Czym jest edukacja i jakie jej rodzaje mamy dzisiaj? Dowiedziłam się kluczowego punktu na temat rozwój edukacji offline i online,' +
                                     ' jak projekt nauczania, porady i wskazówki dotyczące rozpoczęcia nauczania projektu i doskonalenia umiejętności pedagogicznych.'
                             },
                             'course9': {
                                 'position': 'CorelDraw',
-                                'description': 'Create business card and unique color palettes, design clean and professional business' +
-                                    ' cards,organizing a brochure layout by learning. Learned how to manage pages, also combining' +
-                                    ' vector shapes, to use them in logos and graphics'
+                                'description': 'Stworzenie wizytówek i unikalnych palet kolorów, zaprojektowanie profesjonalnych wizytówek. ' +
+                                    'Nauczyłem się jak zarządzać stronami, również łączyć kształty wektorowe, aby użyć ich w logo i grafice.'
                             },
                             'course10': {
                                 'position': 'Photoshop',
-                                'description': 'Business cards, design icons, illustrations and characters, improve and repair' +
-                                    ' photos, remove people or objects from photos and cut away a person from their background, ' +
-                                    'use creative effects to design stunning text styles, layers, master selections, working with the layers panel.'
+                                'description': 'Wizytówki, design icons, ilustracje i postacie, ulepszenie i naprawienie' +
+                                    ' zdjęć, usunięcie przedmiów ze zdjęć i odcięcie osob od tła, ' +
+                                    ' Nauczyłem się jak używać efektów kreatywnych do projektowania oszałamiających stylów tekstu, ' +
+                                    'warstw, zaznaczeń wzorcowych, pracy z panelem warstw'
                             },
                         },
                     },

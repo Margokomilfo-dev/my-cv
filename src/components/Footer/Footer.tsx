@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
             <div className={s.footer}>
                 <div className={styles.container}>
                 <p> <FontAwesomeIcon icon={faCopyright}/>2020 <span>{t('name')}</span> <br/>
-                All Rights Reserved.</p>
+                    {t('copyright')}</p>
                     <SocialNetworks />
             </div>
         </div>
