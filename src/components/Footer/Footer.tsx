@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../../common/commonStyles.module.sass'
 import s from './Footer.module.sass'
-
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCopyright} from '@fortawesome/free-solid-svg-icons'
 import {SocialNetworks} from '../Header/SocialNetworks/SocialNetworks'

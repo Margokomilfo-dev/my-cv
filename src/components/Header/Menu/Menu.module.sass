@@ -1,116 +1,122 @@
+@import '../../../common/variables'
 .wrapper
-  position: relative
-  z-index: 10
-  .menu
-    position: fixed
-    z-index: 1
-    width: 70px
-    height: 70px
-    cursor: pointer
-    background-color: #F54F36
-    display: flex
-    flex-direction: column
-    align-items: center
-    justify-content: center
-    margin: 20px
-    border-radius: 5px
-    @media screen and (max-width: 565px)
-      margin: 0
-      border-radius: 0
-      border-bottom-right-radius: 5px
-      //align-items: flex-start
-      //padding: 15px
-      //justify-content: flex-start
-      //border-bottom-right-radius: 70px
-      //background-color: rgba(245, 79, 54, 0.9)
-    .menuLine
-      width: 20px
-      height: 2px
-      background-color: #FFFFFF
-      margin: 2px 0
-  .menuBlock
-    position: fixed
-    left: 0
-    top: 0
-    bottom: 0
-    width: 100%
-    list-style: none
-    padding: 0
-    background-color: rgba(26,26,26,.6)
-    .menuTitle
-      margin: 20px
-      color: #FFFFFF
-      cursor: pointer
-      width: 15%
-      display: flex
-      justify-content: space-between
-      align-items: center
-      background-color: #F54F36
-      text-transform: uppercase
-      font-weight: 900
-      padding: 20px
-      @media screen and (max-width: 1400px)
-        width: 20%
-      @media screen and (max-width: 1200px)
-        width: 25%
-      @media screen and (max-width: 1000px)
-        width: 30%
-      @media screen and (max-width: 800px)
-        width: 35%
-      @media screen and (max-width: 600px)
-        width: 40%
-      @media screen and (max-width: 500px)
-        width: 50%
-      @media screen and (max-width: 450px)
-        width: 55%
-      @media screen and (max-width: 400px)
-        width: 60%
-      @media screen and (max-width: 350px)
-        width: 65%
-    .menuItems
-      width: 15%
-      margin: -20px 0 0 20px
-      @media screen and (max-width: 1400px)
-        width: 20%
-      @media screen and (max-width: 1200px)
-        width: 25%
-      @media screen and (max-width: 1000px)
-        width: 30%
-      @media screen and (max-width: 800px)
-        width: 35%
-      @media screen and (max-width: 600px)
-        width: 40%
-      @media screen and (max-width: 500px)
-        width: 50%
-      @media screen and (max-width: 450px)
-        width: 55%
-      @media screen and (max-width: 400px)
-        width: 60%
-      @media screen and (max-width: 350px)
-        width: 65%
-      & ul
-        list-style-type: none
-        padding: 0
-        & li
-          background-color: rgba(26,26,26,.6)
-          display: flex
-          //justify-content: flex-end
-          margin: 0 auto
-          border-bottom: dashed 1px #4d4d4d
-          width: 100%
-          &:last-child
-            border-bottom: none
-          & a
-            display: flex
-            padding: 15px 0 15px 20px
-            cursor: pointer
-            text-decoration: none
-            font-weight: 600
-            width: 100%
-            text-transform: uppercase
-            color: #FFFFFF
-          &:hover
-            border: 1px solid #F54F36
-            color: #F54F36
-          & a:visited
-            color: #FFFFFF
+	position: relative
+	z-index: 10
+
+	.menu
+		position: fixed
+		z-index: 1
+		width: 70px
+		height: 70px
+		cursor: pointer
+		background-color:
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		margin: 20px
+		border-radius: 5px
+		@media screen and (max-width: 565px)
+			margin: 0
+			border-radius: 0
+			border-bottom-right-radius: 5px
+
+		.menuLine
+			width: 20px
+			height: 2px
+			background-color: $text-color1
+			margin: 2px 0
+
+	.menuBlock
+		position: fixed
+		left: 0
+		top: 0
+		bottom: 0
+		width: 100%
+		list-style: none
+		padding: 0
+		background-color: rgba(26, 26, 26, .6)
+
+		.menuTitle
+			margin: 20px
+			color: #FFFFFF
+			cursor: pointer
+			width: 15%
+			display: flex
+			justify-content: space-between
+			align-items: center
+			background-color: $main-color
+			text-transform: uppercase
+			font-weight: 900
+			padding: 20px
+			@media screen and (max-width: 1400px)
+				width: 20%
+			@media screen and (max-width: 1200px)
+				width: 25%
+			@media screen and (max-width: 1000px)
+				width: 30%
+			@media screen and (max-width: 800px)
+				width: 35%
+			@media screen and (max-width: 600px)
+				width: 40%
+			@media screen and (max-width: 500px)
+				width: 50%
+			@media screen and (max-width: 450px)
+				width: 55%
+			@media screen and (max-width: 400px)
+				width: 60%
+			@media screen and (max-width: 350px)
+				width: 65%
+
+		.menuItems
+			width: 15%
+			margin: -20px 0 0 20px
+			@media screen and (max-width: 1400px)
+				width: 20%
+			@media screen and (max-width: 1200px)
+				width: 25%
+			@media screen and (max-width: 1000px)
+				width: 30%
+			@media screen and (max-width: 800px)
+				width: 35%
+			@media screen and (max-width: 600px)
+				width: 40%
+			@media screen and (max-width: 500px)
+				width: 50%
+			@media screen and (max-width: 450px)
+				width: 55%
+			@media screen and (max-width: 400px)
+				width: 60%
+			@media screen and (max-width: 350px)
+				width: 65%
+
+			& ul
+				list-style-type: none
+				padding: 0
+
+				& li
+					background-color: rgba(26, 26, 26, .6)
+					display: flex
+					margin: 0 auto
+					border-bottom: dashed 1px #4d4d4d
+					width: 100%
+
+					&:last-child
+						border-bottom: none
+
+					& a
+						display: flex
+						padding: 15px 0 15px 20px
+						cursor: pointer
+						text-decoration: none
+						font-weight: 600
+						width: 100%
+						text-transform: uppercase
+						color: $text-color1
+
+					&:hover
+						border: 1px solid $main-color
+						color: $main-color
+
+					& a:visited
+						color: #FFFFFF

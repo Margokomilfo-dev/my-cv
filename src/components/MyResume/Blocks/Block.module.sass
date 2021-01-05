@@ -1,12 +1,12 @@
+@import '../../../common/variables'
+
 .block
 	width: 50%
 	position: relative
 	@media screen and (max-width: 700px)
 		width: 100%
-		border: 1px solid green
 		margin: 20px 0
 	@media screen and (max-width: 650px)
-		border: 1px solid green
 		margin: 10px 0
 
 	&:nth-child(2n-1)
@@ -63,7 +63,7 @@
 
 		&.expBlocksColor
 			@media screen and (max-width: 700px)
-				border: 1px solid #e74b3b
+				border: 1px solid $main-color
 
 		&.coursersBlocksColor
 			@media screen and (max-width: 700px)
@@ -74,13 +74,13 @@
 				border: 1px solid #1abb9b
 
 		&:hover
-			background-color: white
+			background-color: $bg-color1
 
 			& .blockIcon
-				background-color: #F54F36
+				background-color: $main-color
 
 			& .blockArrow
-				background-color: white
+				background-color: $bg-color1
 
 		.blockIcon
 			width: 16px
@@ -95,7 +95,7 @@
 			width: 16px
 			height: 16px
 			z-index: 1
-			background-color: #F0F2F7
+			background-color: $bg-color2
 			transform: rotate(45deg)
 			@media screen and (max-width: 700px)
 				display: none
@@ -109,10 +109,13 @@
 			text-transform: uppercase
 			@media screen and (max-width: 768px)
 				font-size: 15px
+
 			&.expPosition
-				color: #F54F36
+				color: $main-color
+
 			&.coursesName
 				color: #9D6FC8
+
 			& span
 				font-size: 17px
 				text-transform: none
