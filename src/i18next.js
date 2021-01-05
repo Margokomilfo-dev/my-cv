@@ -169,6 +169,14 @@ i18n
                     'skills': {
                         'title': 'skills',
                     },
+                    'menu': {
+                        'home': 'Home',
+                        'aboutMe': 'About me',
+                        'resume': 'Resume',
+                        'works': 'Works',
+                        'skills': 'Skills',
+                        'contact': 'Contact'
+                    },
                 }
             },
             pl: {
@@ -330,6 +338,14 @@ i18n
                     },
                     'skills': {
                         'title': 'umiejętności',
+                    },
+                    'menu': {
+                        'home': 'Home',
+                        'aboutMe': 'O mnie',
+                        'resume': 'Moje CV',
+                        'works': 'Prace',
+                        'skills': 'Umiejętności',
+                        'contact': 'Contact'
                     },
                 }
             }

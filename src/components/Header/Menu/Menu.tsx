@@ -1,9 +1,11 @@
 import s from './Menu.module.sass'
 import React, {useState} from 'react'
 import {Link} from "react-scroll"
+import {useTranslation} from 'react-i18next'
 
 export const Menu = () => {
     const [status, setStatus] = useState(false)
+    const {t} = useTranslation()
     return (
 
         <div  className={s.wrapper} >
@@ -23,12 +25,12 @@ export const Menu = () => {
                        <div className={s.menuItems}>
                            <ul>
                                {/*<li className={s.navListItem}><Link className={s.navListLink} to="become" smooth={true} duration={1000}>Как это работает</Link>*/}
-                               <li><Link href="#" to='home' smooth={true} duration={1000}> Home </Link></li>
-                               <li><Link href="#" to='aboutMe' smooth={true} duration={1000}> About me </Link></li>
-                               <li><Link href="#" to='resume' smooth={true} duration={1000}> Resume </Link></li>
-                               <li><Link href="#" to='works' smooth={true} duration={1000}> Works </Link></li>
-                               <li><Link href="#" to='skills' smooth={true} duration={1000}> Skills </Link></li>
-                               <li><Link href="#" to='contactme' smooth={true} duration={1000}> Contact </Link></li>
+                               <li><Link href="#" to='home' smooth={true} duration={1000}>{t('menu.home')}</Link></li>
+                               <li><Link href="#" to='aboutMe' smooth={true} duration={1000}>{t('menu.aboutMe')}</Link></li>
+                               <li><Link href="#" to='resume' smooth={true} duration={1000}>{t('menu.resume')}</Link></li>
+                               <li><Link href="#" to='works' smooth={true} duration={1000}>{t('menu.works')}</Link></li>
+                               <li><Link href="#" to='skills' smooth={true} duration={1000}>{t('menu.skills')}</Link></li>
+                               <li><Link href="#" to='contactme' smooth={true} duration={1000}>{t('menu.contact')}</Link></li>
                            </ul>
                        </div>
 
