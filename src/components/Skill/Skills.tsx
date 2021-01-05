@@ -1,15 +1,17 @@
 import React from 'react'
 import s from './Skills.module.sass'
 import styles from '../../common/commonStyles.module.sass'
+import {useTranslation} from 'react-i18next'
 
 type SkillPropsType = {}
 
 export const Skills: React.FC<SkillPropsType> = (props) => {
+    const {t} = useTranslation()
     return (
         <div className={styles.blockName} data-aos="fade-in" id='skills'>
             <div className={styles.container}>
                 <div className={styles.blockTitle}>
-                    <h2>Skills</h2>
+                    <h2>{t('skills.title')}</h2>
                     <span className={styles.border}> </span>
                 </div>
                 <div className={s.skillsContainer}>

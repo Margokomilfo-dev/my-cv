@@ -11,20 +11,21 @@ import 'aos/dist/aos.css'
 import {Insertion} from './components/Insertion/Insertion'
 import {Footer} from './components/Footer/Footer'
 import { ScrollToTop } from './components/ScrollToTop/ScrollToTop'
+import {useTranslation} from 'react-i18next'
 
 AOS.init()
 
 function App() {
-
+    const {t} = useTranslation()
     return (
         <div className="App">
             <Header/>
             <AboutMe/>
             <MyResume/>
-            <Insertion title={'I Love To Design & Develop'}/>
+            <Insertion title={t('insertion.1')}/>
             <Portfolio/>
             <Skills/>
-            <Insertion title={`I'm Open To Work`}/>
+            <Insertion title={t('insertion.2')}/>
             <ContactMe/>
             <Footer/>
             <ScrollToTop/>

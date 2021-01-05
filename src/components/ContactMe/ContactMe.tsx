@@ -4,12 +4,39 @@ import styles from '../../common/commonStyles.module.sass'
 import emailjs from 'emailjs-com'
 import {PersonalInfo} from '../AboutMe/PersonalDataLeftPart/PersonalInfo/PersonalInfo'
 import {useTranslation} from 'react-i18next'
+import {useFormik} from 'formik'
+
+type FormikErrorType = {
+    name?: string
+    email?: string
+}
 
 type ContactMePropsType = {}
 
 export const ContactMe: React.FC<ContactMePropsType> = (props) => {
     const {t} = useTranslation()
     const [send, setSend] = useState(false)
+    const formik = useFormik({
+        initialValues: {
+            name: '',
+            email: '',
+        },
+        validate: (values) => {
+            const errors: FormikErrorType = {};
+            if (!values.email) {
+                errors.email = 'Required';
+            } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,8}$/i.test(values.email)) {
+                errors.email = 'Invalid email address';
+            }
+            if (!values.name) {
+                errors.name = 'Required';
+            }else if (values.name.length < 2  ) {
+                errors.name = 'Are you right? :)'
+            }
+            return errors;
+        },
+        onSubmit: (values) => {}
+    })
     // @ts-ignore
     const sendEmail = (e) => {
         setSend(true)
@@ -49,17 +76,23 @@ export const ContactMe: React.FC<ContactMePropsType> = (props) => {
                                 <div className={s.inputName}>
                                     <label>
                                         <span>{t('contactMe.yourName')}:</span>
-                                        <input type="text" placeholder={t('contactMe.placeholderName')}
-                                               name='name'/>
+                                        <input type="text"
+                                               placeholder={t('contactMe.placeholderName')}
+                                               {...formik.getFieldProps('name')}
+                                        />
                                     </label>
                                 </div>
+                                {formik.touched.name && formik.errors.name ? <div className={s.error}>{formik.errors.name}</div> : null}
                                 <div className={s.inputEmail}>
                                     <label>
                                         <span>{t('contactMe.yourEmail')}:</span>
-                                        <input type="text" placeholder={'email@gmail.com'} name='email'/>
+                                        <input type="text"
+                                               placeholder={'email@gmail.com'}
+                                               {...formik.getFieldProps('email')}
+                                        />
                                     </label>
-
                                 </div>
+                                {formik.touched.email && formik.errors.email ? <div className={s.error}>{formik.errors.email}</div> : null}
                                 <div className={s.textareaMessage}>
                                     <label>
                                         <span>{t('contactMe.yourMessage')}:</span>
@@ -67,8 +100,9 @@ export const ContactMe: React.FC<ContactMePropsType> = (props) => {
                                     </label>
                                 </div>
                                 <div className={s.button}>
-                                    <button type={'submit'}
-                                            className={styles.button}>{t('contactMe.sendMessage')}</button>
+                                    <button type={'submit'} className={styles.button} disabled={!!formik.errors.name || !!formik.errors.email }>
+                                        {t('contactMe.sendMessage')}
+                                    </button>
                                 </div>
                                 {send && <div className={s.sentPlace}> <span>{t('contactMe.thank')} <br/>{t('contactMe.alert')}</span></div>}
                             </form>

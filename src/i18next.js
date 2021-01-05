@@ -160,7 +160,15 @@ i18n
                         'sendMessage': 'send message',
                         'alert': 'The message was sent. :)',
                         'thank': 'Thank you.'
-                    }
+                    },
+                    'insertion': {
+                        '1': 'I Love To Design & Develop',
+                        '2': 'I\'m Open To Work',
+                        'button': 'Hire me now',
+                    },
+                    'skills': {
+                        'title': 'skills',
+                    },
                 }
             },
             pl: {
@@ -314,7 +322,15 @@ i18n
                         'sendMessage': 'wyślij wiadomość',
                         'alert': 'Wiadomość została wysłana. :)',
                         'thank': 'Dziękuję.',
-                    }
+                    },
+                    'insertion': {
+                        '1': 'Lubię To, Co Robię',
+                        '2': 'Jestem Otwarta Na Pracę.',
+                        'button': 'Napisz mi',
+                    },
+                    'skills': {
+                        'title': 'umiejętności',
+                    },
                 }
             }
         },
