@@ -17,6 +17,8 @@ i18n
                     'onlineCourse': 'Online-course',
                     'PSU': 'Polotsk State University',
                     'copyright': ' All Rights Reserved.',
+                    'Phone': '+48 796-027-535',
+                    'Email': 'margokomilfo.dev@gmail.com',
                     'aboutMe': {
                         'title': 'ABOUT ME',
                         'common': {
@@ -25,8 +27,6 @@ i18n
                             '3': 'My main goal at work is to do more than anyone expects from me and grow as a professional together with the company. I would like to join your team and I believe that together we will be able to make this world a better place',
                         },
                         'left': {
-                            'Phone': '+48 796-027-535',
-                            'Email': 'margokomilfo-dev@gmail.com',
                             'Address': 'Wroclaw, Poland',
                             'buttonName': 'DOWNLOAD RESUME',
                         },
@@ -191,17 +191,17 @@ i18n
                     'onlineCourse': 'Online-kurs',
                     'PSU': 'Połotski Narodowy Uniwersytet',
                     'copyright': ' Wszelkie Prawa Zastrzeżone',
+                    'Phone': '+48 796-027-535',
+                    'Email': 'margokomilfo.dev@gmail.com',
                     'aboutMe': {
                         'title': 'Jestem',
                         'common': {
-                            '1': 'Front-end (react) developer - to do czego ja dążę pewnymi małymi krokami w ciągu ostatnich 2 lat. Codzienna praca nad sobą, doskonalenie umiejętności, nauka angielskiego i czytanie literatury technicznej pomaga mi każdego dnia być bliżej celu.\n' +
+                            '1': 'Front-end (react) developer - to, do czego dążę pewnymi, małymi krokami w ciągu ostatnich 2 lat. Codzienna praca nad sobą, doskonalenie umiejętności, nauka angielskiego i czytanie literatury technicznej pomaga mi każdego dnia być bliżej celu.\n' +
                                 'Łatwo? Nie. Ale jestem gotowa zdobywać dogłębną wiedzę i doświadczenie.',
-                            '2': 'W Polsce mam stały pobyt z dostępem do pracy. Jestem osobą pracowitą i zorientowaną na cel z ogromną motywacją do osiągania wysokich wyników i zostania wysoko wykwalifikowanym specjalistą.',
-                            '3': 'Moim głównym celem w pracy jest zrobić więcej, niż ktokolwiek ode mnie oczekuje i rozwijać się jako profesjonalista razem z firmą. Chciałbym dołączyć do waszego zespołu i wierzę, że razem będziemy mogli stworzyć ten świat najlepszym miejscem.',
+                            '2': 'W Polsce mam stały pobyt z dostępem do pracy. Jestem osobą pracowitą i zorientowaną na cel, z ogromną motywacją do osiągania wysokich wyników i bycia wysoko wykwalifikowanym specjalistą.',
+                            '3': 'Moim głównym celem w pracy jest rozwój jako profesjonalista razem z firmą, oraz zrobienie więcej, niż ktokolwiek ode mnie oczekuje. Chciałabym dołączyć do waszego zespołu, i wierzę, że razem będziemy mogli zrobić ten świat lepszym miejscem.',
                         },
                         'left': {
-                            'Phone': '+48 796-027-535',
-                            'Email': 'margokomilfo-dev@gmail.com',
                             'Address': 'Wrocław, Poland',
                             'buttonName': 'pobierz CV',
                         },
@@ -344,7 +344,7 @@ i18n
                     'insertion': {
                         '1': 'Lubię To, Co Robię',
                         '2': 'Jestem Otwarta Na Pracę.',
-                        'button': 'Napisz mi',
+                        'button': 'Napisz do mnie',
                     },
                     'skills': {
                         'title': 'umiejętności',
