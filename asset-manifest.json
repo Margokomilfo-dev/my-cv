@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-cv/static/css/main.146ffc3d.chunk.css",
-    "main.js": "/my-cv/static/js/main.e554deff.chunk.js",
-    "main.js.map": "/my-cv/static/js/main.e554deff.chunk.js.map",
+    "main.css": "/my-cv/static/css/main.e0780fdc.chunk.css",
+    "main.js": "/my-cv/static/js/main.6792dec0.chunk.js",
+    "main.js.map": "/my-cv/static/js/main.6792dec0.chunk.js.map",
     "runtime-main.js": "/my-cv/static/js/runtime-main.2877b1bb.js",
     "runtime-main.js.map": "/my-cv/static/js/runtime-main.2877b1bb.js.map",
     "static/css/2.30fbed10.chunk.css": "/my-cv/static/css/2.30fbed10.chunk.css",
-    "static/js/2.833b4a31.chunk.js": "/my-cv/static/js/2.833b4a31.chunk.js",
-    "static/js/2.833b4a31.chunk.js.map": "/my-cv/static/js/2.833b4a31.chunk.js.map",
+    "static/js/2.867fedef.chunk.js": "/my-cv/static/js/2.867fedef.chunk.js",
+    "static/js/2.867fedef.chunk.js.map": "/my-cv/static/js/2.867fedef.chunk.js.map",
     "index.html": "/my-cv/index.html",
     "static/css/2.30fbed10.chunk.css.map": "/my-cv/static/css/2.30fbed10.chunk.css.map",
-    "static/css/main.146ffc3d.chunk.css.map": "/my-cv/static/css/main.146ffc3d.chunk.css.map",
-    "static/js/2.833b4a31.chunk.js.LICENSE.txt": "/my-cv/static/js/2.833b4a31.chunk.js.LICENSE.txt",
+    "static/css/main.e0780fdc.chunk.css.map": "/my-cv/static/css/main.e0780fdc.chunk.css.map",
+    "static/js/2.867fedef.chunk.js.LICENSE.txt": "/my-cv/static/js/2.867fedef.chunk.js.LICENSE.txt",
     "static/media/3M.7017d883.png": "/my-cv/static/media/3M.7017d883.png",
     "static/media/CVenglish.26da87ac.pdf": "/my-cv/static/media/CVenglish.26da87ac.pdf",
     "static/media/airplane.969b2a3d.png": "/my-cv/static/media/airplane.969b2a3d.png",
@@ -36,21 +36,25 @@
     "static/media/popup.2c817ab2.png": "/my-cv/static/media/popup.2c817ab2.png",
     "static/media/puls.c2560065.png": "/my-cv/static/media/puls.c2560065.png",
     "static/media/tabs.20670c6c.png": "/my-cv/static/media/tabs.20670c6c.png",
+    "static/media/telegram.e9722f26.png": "/my-cv/static/media/telegram.e9722f26.png",
+    "static/media/telephone.fb244201.png": "/my-cv/static/media/telephone.fb244201.png",
     "static/media/timer.630a7fc6.png": "/my-cv/static/media/timer.630a7fc6.png",
     "static/media/timer2.57ca6c4f.jpg": "/my-cv/static/media/timer2.57ca6c4f.jpg",
     "static/media/todo.a1a9b10c.png": "/my-cv/static/media/todo.a1a9b10c.png",
     "static/media/traffic.6d54bbac.png": "/my-cv/static/media/traffic.6d54bbac.png",
     "static/media/uber.b7fd374b.png": "/my-cv/static/media/uber.b7fd374b.png",
+    "static/media/viber.61dd0730.png": "/my-cv/static/media/viber.61dd0730.png",
     "static/media/video.52535072.png": "/my-cv/static/media/video.52535072.png",
     "static/media/web-programming.c12c8bcf.png": "/my-cv/static/media/web-programming.c12c8bcf.png",
+    "static/media/whatsapp.1dd8ca27.png": "/my-cv/static/media/whatsapp.1dd8ca27.png",
     "static/media/wordpress.819024dd.png": "/my-cv/static/media/wordpress.819024dd.png",
     "static/media/workplaceBgr1.220c711b.jpg": "/my-cv/static/media/workplaceBgr1.220c711b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2877b1bb.js",
     "static/css/2.30fbed10.chunk.css",
-    "static/js/2.833b4a31.chunk.js",
-    "static/css/main.146ffc3d.chunk.css",
-    "static/js/main.e554deff.chunk.js"
+    "static/js/2.867fedef.chunk.js",
+    "static/css/main.e0780fdc.chunk.css",
+    "static/js/main.6792dec0.chunk.js"
   ]
 }
