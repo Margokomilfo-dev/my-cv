@@ -22,9 +22,16 @@ i18n
                     'aboutMe': {
                         'title': 'ABOUT ME',
                         'common': {
-                            '1': 'Front-end (react) developer – that is what I have been going with confident small steps the past 2 years. Daily work on yourself, pumping my skills, learning English and reading technical literature helps me get closer to my goal every day. Easy? No. Nevertheless, I am ready for difficulties. Ready to learn and develop. Now I am writing with some projects to demonstrate and consolidate my skills. Its underway - the functionality is expanding, errors are being fixed.',
-                            '2': 'In Poland, I have a permanent place of residence with access to work like local residents. I am a hardworking and goal-oriented person with a great motivation to achieve high results and become a highly qualified professional.',
-                            '3': 'My main goal at work is to do more than anyone expects from me and grow as a professional together with the company. I would like to join your team and I believe that together we will be able to make this world a better place',
+                            '1': 'Front-end (react) developer – that is what I have been going with, step by step, ' +
+                                'for the last 2 years. Reading technical documentation, programming, testing and ' +
+                                'investigating someone else’s code, learning English and much more became my daily ' +
+                                'routine. Easy? No, but nevertheless, it inspires me and I am always up for new challenges',
+                            '2': 'In Poland, I have a permanent place of residence with access to work like local ' +
+                                'residents. I am a hardworking and goal-oriented person with a great motivation to ' +
+                                'achieve high results and become a highly qualified professional. ',
+                            '3': 'My main goal at work is to do more than anyone expects from me and grow as a ' +
+                                'professional together with the company. I would like to join your team and I believe ' +
+                                'that together we will be able to make this world a better place.',
                         },
                         'left': {
                             'Address': 'Wroclaw, Poland',
@@ -33,13 +40,13 @@ i18n
                         'right': {
                             '0': 'HOBBIES & INTERESTS',
                             '1': 'Sport',
-                            '2': 'Books',
+                            '2': 'Reading',
                             '3': 'Family',
                             '4': 'codewars',
                             '5': 'Animals',
-                            '6': 'Travels',
+                            '6': 'Travelling',
                             '7': 'Mac OS',
-                            '8': 'Money',
+                            '8': 'Finance',
                             '9': 'Cinema',
                             '10': 'stackoverflow',
                             '11': 'habr',
@@ -196,9 +203,12 @@ i18n
                     'aboutMe': {
                         'title': 'Jestem',
                         'common': {
-                            '1': 'Front-end (react) developer - to, do czego dążę pewnymi, małymi krokami w ciągu ostatnich 2 lat. Codzienna praca nad sobą, doskonalenie umiejętności, nauka angielskiego i czytanie literatury technicznej pomaga mi każdego dnia być bliżej celu.\n' +
+                            '1': 'Front-end (react) developer - to, do czego dążę pewnymi, małymi krokami w ciągu ' +
+                                'ostatnich 2 lat. Codzienna praca nad sobą, doskonalenie umiejętności, ' +
+                                'nauka angielskiego i czytanie literatury technicznej pomaga mi każdego dnia ' +
+                                'być bliżej celu.\n' +
                                 'Łatwo? Nie. Ale jestem gotowa zdobywać dogłębną wiedzę i doświadczenie.',
-                            '2': 'W Polsce mam stały pobyt z dostępem do pracy. Jestem osobą pracowitą i zorientowaną na cel, z ogromną motywacją do osiągania wysokich wyników i bycia wysoko wykwalifikowanym specjalistą.',
+                            '2': 'W Polsce mam stały pobyt z dostępem do rynku pracy. Jestem osobą pracowitą i zorientowaną na cel, z ogromną motywacją do osiągania wysokich wyników i bycia wysoko wykwalifikowanym specjalistą.',
                             '3': 'Moim głównym celem w pracy jest rozwój jako profesjonalista razem z firmą, oraz zrobienie więcej, niż ktokolwiek ode mnie oczekuje. Chciałabym dołączyć do waszego zespołu, i wierzę, że razem będziemy mogli zrobić ten świat lepszym miejscem.',
                         },
                         'left': {
@@ -307,19 +317,19 @@ i18n
                             },
                             'course8': {
                                 'position': 'Kurs pedagogiczny',
-                                'description': 'Czym jest edukacja i jakie jej rodzaje mamy dzisiaj? Dowiedziłam się kluczowego punktu na temat rozwój edukacji offline i online,' +
-                                    ' jak projekt nauczania, porady i wskazówki dotyczące rozpoczęcia nauczania projektu i doskonalenia umiejętności pedagogicznych.'
+                                'description': 'Czym jest edukacja i jakie jej rodzaje mamy dzisiaj? Dowiedziłam się o kluczowym punkcie rozwóju edukacji offline i online.' +
+                                    'Także o projekcie nauczania, poradach i wskazówkach dotyczących rozpoczęcia nauczania projektu i doskonalenia umiejętności pedagogicznych.'
                             },
                             'course9': {
                                 'position': 'CorelDraw',
-                                'description': 'Stworzenie wizytówek i unikalnych palet kolorów, zaprojektowanie profesjonalnych wizytówek. ' +
-                                    'Nauczyłem się jak zarządzać stronami, również łączyć kształty wektorowe, aby użyć ich w logo i grafice.'
+                                'description': 'Tworzenie wizytówek i unikalnych palet kolorów, projektowanie profesjonalnych wizytówek. ' +
+                                    'Nauczyłam się zarządzać stronami oraz łączyć kształty wektorowe, aby użyć ich w logo i grafice.'
                             },
                             'course10': {
                                 'position': 'Photoshop',
-                                'description': 'Wizytówki, design icons, ilustracje i postacie, ulepszenie i naprawienie' +
-                                    ' zdjęć, usunięcie przedmiów ze zdjęć i odcięcie osob od tła, ' +
-                                    ' Nauczyłem się jak używać efektów kreatywnych do projektowania oszałamiających stylów tekstu, ' +
+                                'description': 'Wizytówki, design icons, ilustracje i postacie. Ulepszanie i naprawianie' +
+                                    ' zdjęć, usunięcie przedmiów ze zdjęć i odcięcie osób od tła, ' +
+                                    ' Nauczyłam się używać efektów kreatywnych do projektowania pięknych stylów tekstu, ' +
                                     'warstw, zaznaczeń wzorcowych, pracy z panelem warstw'
                             },
                         },
@@ -327,7 +337,7 @@ i18n
                     'contactMe': {
                         'title': 'SKONTAKTUJ SIĘ ZE MNĄ',
                         'inTouch': 'Bądźmy w kontakcie',
-                        'dropMe': 'Napisz mi',
+                        'dropMe': 'Napisz do mnie',
                         'yourName': 'Jak masz na imię?',
                         'placeholderName': 'imię',
                         'yourEmail': 'Jaki jest twój email?',
