@@ -20,6 +20,7 @@ import tabulation from '../../assets/img/portfolio/tabs.png'
 import timer1 from '../../assets/img/portfolio/timer.png'
 import timer2 from '../../assets/img/portfolio/timer2.jpg'
 import popup_ from '../../assets/img/portfolio/popup.png'
+import currencyEx_ from '../../assets/img/portfolio/currencyEx.png'
 import {WorkBlock} from './WorkBlock/WorkBlock'
 
 export type WorkType = { id: string, style: any, title: string, description: string, part: FilterType, gitHub: string, gitHubLink: string, demo: string, demoLink: string }
@@ -43,6 +44,7 @@ const tabs = {backgroundImage: `url(${tabulation})`}
 const timer = {backgroundImage: `url(${timer1})`}
 const timer_ = {backgroundImage: `url(${timer2})`}
 const popup = {backgroundImage: `url(${popup_})`}
+const currencyEx = {backgroundImage: `url(${currencyEx_})`}
 
 const initialState: Array<WorkType> = [
     {
@@ -210,6 +212,14 @@ const initialState: Array<WorkType> = [
         gitHub: 'margokomilfo-dev/popup',
         demoLink: '',
         demo: '-',
+    },
+    {
+        id: v1(), style: currencyEx, title: 'Currency exchange', description: 'JavaScript, TypeScript, React,' +
+            ' Redux, HTML/CSS', part: 'react-redux',
+        gitHubLink: 'https://github.com/Margokomilfo-dev/currency/',
+        gitHub: 'margokomilfo-dev/currency',
+        demoLink: 'https://margokomilfo-dev.github.io/currency/',
+        demo: 'margokomilfo-dev.github.io/currency/',
     },
 ]
 
