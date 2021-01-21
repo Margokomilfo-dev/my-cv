@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-cv/static/css/main.a391cda8.chunk.css",
-    "main.js": "/my-cv/static/js/main.3829e84c.chunk.js",
-    "main.js.map": "/my-cv/static/js/main.3829e84c.chunk.js.map",
+    "main.js": "/my-cv/static/js/main.fd7befaf.chunk.js",
+    "main.js.map": "/my-cv/static/js/main.fd7befaf.chunk.js.map",
     "runtime-main.js": "/my-cv/static/js/runtime-main.2877b1bb.js",
     "runtime-main.js.map": "/my-cv/static/js/runtime-main.2877b1bb.js.map",
     "static/css/2.30fbed10.chunk.css": "/my-cv/static/css/2.30fbed10.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/counter2.baec8ef2.png": "/my-cv/static/media/counter2.baec8ef2.png",
     "static/media/countertuesday.97de2c4f.png": "/my-cv/static/media/countertuesday.97de2c4f.png",
     "static/media/currancy.6ff6236c.png": "/my-cv/static/media/currancy.6ff6236c.png",
+    "static/media/currencyEx.a6b5f669.png": "/my-cv/static/media/currencyEx.a6b5f669.png",
     "static/media/dumbbell.db43313d.png": "/my-cv/static/media/dumbbell.db43313d.png",
     "static/media/global.9e95f8f7.png": "/my-cv/static/media/global.9e95f8f7.png",
     "static/media/house.20a89cae.png": "/my-cv/static/media/house.20a89cae.png",
@@ -55,6 +56,6 @@
     "static/css/2.30fbed10.chunk.css",
     "static/js/2.867fedef.chunk.js",
     "static/css/main.a391cda8.chunk.css",
-    "static/js/main.3829e84c.chunk.js"
+    "static/js/main.fd7befaf.chunk.js"
   ]
 }
