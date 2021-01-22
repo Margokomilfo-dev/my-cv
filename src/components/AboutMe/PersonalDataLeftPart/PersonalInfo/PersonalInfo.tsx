@@ -17,7 +17,7 @@ type PersonalInfoStateType = {
     commonInfo: Array<{ id: string, title: string, text: any }>
 }
 
-export const PersonalInfo: React.FC = () => {
+export const PersonalInfo: React.FC = React.memo(() => {
     const {t} = useTranslation()
     const state: PersonalInfoStateType = {
         phone: {id: v1(), title: 'Phone', text: t('Phone'), imgPhone: phoneImg, imgTelegram: telegramImg, imgViber: viberImg, imgWhatsApp: whatsAppImg},
@@ -51,4 +51,4 @@ export const PersonalInfo: React.FC = () => {
             </div>
         </div>
     )
-}
+})
