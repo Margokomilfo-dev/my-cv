@@ -9,7 +9,7 @@ import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 const state = [
     {id: v1(), name: 'fb', img: faFacebookF , link: 'https://www.facebook.com/margarita.prishchepionok'},
-    {id: v1(), name: 'lk', img: faLinkedinIn , link: 'https://www.linkedin.com/in/marharyta-pryshchapionak-b6846b1a4/'},
+    {id: v1(), name: 'lk', img: faLinkedinIn , link: 'https://www.linkedin.com/in/margo-pryshchapionak'},
     {id: v1(), name: 'gh', img: faGithub , link: 'https://github.com/Margokomilfo-dev/'},
     {id: v1(), name: 'insta', img: faInstagram, link: 'https://www.instagram.com/margo.komilfo/'},
 ]
