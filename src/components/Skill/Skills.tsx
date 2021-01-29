@@ -22,7 +22,6 @@ export const Skills: React.FC<SkillPropsType> = (props) => {
                     <SkillBox style={{width: '75%'}} title='REST API'/>
                     <SkillBox style={{width: '65%'}} title='JavaScript'/>
                     <SkillBox style={{width: '65%'}} title='Material-UI'/>
-                    <SkillBox style={{width: '65%'}} title='ReduxToolkit'/>
                     <SkillBox style={{width: '75%'}} title='Flux'/>
                     <SkillBox style={{width: '70%'}} title='Storybook'/>
                     <SkillBox style={{width: '70%'}} title='TDD - Jest'/>
