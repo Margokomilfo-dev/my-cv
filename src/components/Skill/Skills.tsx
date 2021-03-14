@@ -16,16 +16,20 @@ export const Skills: React.FC<SkillPropsType> = (props) => {
                 </div>
                 <div className={s.skillsContainer}>
                     <SkillBox style={{width: '75%'}} title='React'/>
+                    <SkillBox style={{width: '75%'}} title='Next.js'/>
                     <SkillBox style={{width: '75%'}} title='TypeScript'/>
                     <SkillBox style={{width: '75%'}} title='Redux'/>
                     <SkillBox style={{width: '75%'}} title='Axios'/>
                     <SkillBox style={{width: '75%'}} title='REST API'/>
                     <SkillBox style={{width: '65%'}} title='JavaScript'/>
                     <SkillBox style={{width: '65%'}} title='Material-UI'/>
+                    <SkillBox style={{width: '50%'}} title='Ant Design'/>
                     <SkillBox style={{width: '75%'}} title='Flux'/>
                     <SkillBox style={{width: '70%'}} title='Storybook'/>
                     <SkillBox style={{width: '70%'}} title='TDD - Jest'/>
                     <SkillBox style={{width: '70%'}} title='HTML & CSS (Sass/Less/SCSS)'/>
+                    <SkillBox style={{width: '80%'}} title='styled-components'/>
+                    <SkillBox style={{width: '50%'}} title='Redux Toolkit'/>
                 </div>
             </div>
         </div>
