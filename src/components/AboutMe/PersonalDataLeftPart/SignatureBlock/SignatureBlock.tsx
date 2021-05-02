@@ -13,11 +13,14 @@ export const SignatureBlock: React.FC = () => {
     const state = {
         name: t('name') as string
     }
+    const onClickBtn = () => {
+        window.open(pdf, '_blank');
+    }
     return (
         <div className={s.signatureBlock}>
             <div className={s.signature} data-aos="fade-in">{state.name}</div>
-            <div className={styles.button}>
-                <a href={pdf} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDownload}/> {t('aboutMe.left.buttonName')}</a>
+            <div className={styles.button} onClick={onClickBtn}>
+                <FontAwesomeIcon icon={faDownload}/> {t('aboutMe.left.buttonName')}
             </div>
         </div>
     )
